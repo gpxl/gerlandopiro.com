@@ -105,9 +105,9 @@ task :new_post, :title do |t, args|
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-    post.puts "comments: false"
-    post.puts "published: false"
-    post.puts "categories: "
+    post.puts "published: true"
+    post.puts "sharing: false"
+    post.puts "external-url:"
     post.puts "---"
   end
 end
@@ -140,11 +140,8 @@ task :new_page, :filename do |t, args|
       page.puts "---"
       page.puts "layout: page"
       page.puts "title: \"#{title}\""
-      page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-      page.puts "comments: false"
-      post.puts "published: false"
-      page.puts "sharing: true"
-      page.puts "footer: true"
+      page.puts "published: true"
+      page.puts "sharing: false"
       page.puts "---"
     end
   else

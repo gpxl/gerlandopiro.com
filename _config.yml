@@ -6,7 +6,8 @@ url: http://www.rubytil.com
 title: Ruby TIL
 subtitle: 
 author: Gerlando Piro
-simple_search: 
+email: comments@rubytil.com
+simple_search: http://google.com/search
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -97,3 +98,5 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+linklog_marker: "&#8801; "

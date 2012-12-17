@@ -151,7 +151,7 @@ blockquote {
 	font-size: 1em;
 	margin: 2em 2em 2em 1em;
 	padding: 0 .75em 0 1.25em;
-	border-left: 1px solid #777;
+	border-left: 3px solid #777;
 	border-right: 0px solid #777;
 	}
 
@@ -237,17 +237,6 @@ hr.ookiaks-jr {
 	border-width: 0;
 	}
 
-fieldset {
-	border: 1px dotted #777;
-	padding: 1em 1em .5em 1em;
-	margin: 0 0 2.5em 0;
-	}
-
-fieldset p {
-	margin-bottom: 0;
-	padding-bottom: 1em;
-	}
-
 legend {
 	color: #aaa;
 	background-color: inherit;
@@ -277,9 +266,6 @@ dd p {
 input, select  {
 	font-size: 1em;
 	}
-input[type="text"], input[type="password"]   { background-color: #4D4D4D; }
-select { background-color: #4D4D4D; }
-
 
 /**** IDs *************************************************************/
 
@@ -330,7 +316,7 @@ select { background-color: #4D4D4D; }
 	border: 0px dotted #606870;
 	width: 450px;
 
-	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	letter-spacing: .2em;
 	text-transform: uppercase;
@@ -358,7 +344,7 @@ select { background-color: #4D4D4D; }
 	padding-bottom: 3px;
 	}
 #BannerPromo strong {
-	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	}
 
@@ -375,7 +361,6 @@ select { background-color: #4D4D4D; }
 
 #MainFullWidth {
 	/*
-		Like #Main, but used on pages without #Sidebar; e.g. the Referrers stats page
 	*/
 	padding: 0px;
 	border-color: white;
@@ -400,6 +385,7 @@ select { background-color: #4D4D4D; }
 	text-align: right;
 	line-height: 1em;
   font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
 	}
 
 
@@ -733,7 +719,7 @@ select { background-color: #4D4D4D; }
 .dateline a:hover { color: #fff; }
 h2.dateline {
 	margin: 2em 0 0 0;
-	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Georgia, serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
 	}
 dl + h2.dateline {
 	margin: 5em 0 2em 0;
@@ -783,7 +769,7 @@ dl + h2.dateline {
 	letter-spacing: .2em;
 	line-height: 1em;
 	text-transform: uppercase;
-	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
 	}
 
 
@@ -801,7 +787,7 @@ dl + h2.dateline {
 	}
 
 .name {
-	font-family: "Gill Sans", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
 	position: relative;
 	left: -1.75em;
 	font-size: 1em;
@@ -864,7 +850,7 @@ dl + h2.dateline {
 	}
 
 .caps {
-	font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Verdana, "Bitstream Vera Sans", sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
 	font-size: .91em;
 	letter-spacing: .2em;
 	text-transform: uppercase;
@@ -988,3 +974,16 @@ a.footnoteBackLink:hover {
 
 /* Workaround for ImageZoom white boxes in non-Safari browsers */
 #ShadowBox img, #ZoomBox img { margin-top: 0px; }
+
+article {
+  margin-top: 3.5em;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+.meta {
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+}
