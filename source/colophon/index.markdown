@@ -6,4 +6,4 @@ sharing: false
 ---
 {{ site.title }} is written and produced by {{ site.author }}.
 
-Articles and links are published through [Octopress](http://octopress.org).
+Articles and links are published with [Octopress](http://octopress.org) and hosted on AWS S3.
