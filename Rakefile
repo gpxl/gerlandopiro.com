@@ -1,6 +1,8 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "./aws_deploy_tools"
+require "./red_dragonfly"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
@@ -8,7 +10,7 @@ ssh_user       = "user@domain.com"
 ssh_port       = "22"
 document_root  = "~/website.com/"
 rsync_delete   = false
-deploy_default = "rsync"
+deploy_default = "s3_cloudfront"
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
@@ -376,3 +378,131 @@ task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
 end
+
+
+# AWS Deploy Stuff
+desc "Deploy website to s3/cloudfront via aws-sdk"
+#task :s3_cloudfront => [:generate, :minify, :gzip, :compress_images] do
+task :s3_cloudfront do
+  puts "=================================================="
+  puts "      Deploying to Amazon S3 & CloudFront"
+  puts "=================================================="
+
+  # setup the aws_deploy_tools object
+  config = YAML::load( File.open("_config.yml"))
+  aws_deploy = AWSDeployTools.new(config)
+
+  # get all files in the public directory
+  all_files = Dir.glob("#{public_dir}/**/*.*")
+
+  # we want the gzipped version of the files, not the regular (non-gzipped) version
+  # excluded files contains all the regular versions, which will not be deployed
+  #excluded_files = []
+  #$gzip_exts.collect do |ext|
+  #  excluded_files += Dir.glob("#{public_dir}/**/*.#{ext}")
+  #end
+
+  ## we do gzipped files seperately since they have different metadata (:content_encoding => gzip)
+  #puts "--> syncing gzipped files...".yellow
+  #gzipped_files = Dir.glob("#{public_dir}/**/*.gz")
+  #gzipped_keys = gzipped_files.collect {|f| (f.split("#{public_dir}/")[1]).sub(".gz", "")}
+
+  #aws_deploy.sync(gzipped_keys, gzipped_files,
+  #        :reduced_redundancy => true,
+  #        :cache_control => "max_age=86400", #24 hours
+  #        :content_encoding => 'gzip',
+  #        :acl => config['acl']
+  #        )
+
+  puts "--> syncing all other files...".yellow
+  non_gzipped_files = all_files #- gzipped_files - excluded_files
+  non_gzipped_keys = non_gzipped_files.collect {|f| f.split("#{public_dir}/")[1]}
+
+  aws_deploy.sync(non_gzipped_keys, non_gzipped_files,
+          :reduced_redundancy => true,
+          :cache_control => "max_age=86400", #24 hours
+          :acl => config['acl']
+          )
+
+  # invalidate all the files we just pushed
+  aws_deploy.invalidate_dirty_keys
+
+  puts "DONE."
+
+end
+
+desc "Compress all applicable content in public/ using gzip"
+task :gzip do
+
+  unless which('gzip')
+    puts "WARNING: gzip is not installed on your system. Skipping gzip..."
+    return
+  end
+
+  @compressor ||= RedDragonfly.new
+
+  $gzip_exts.each do |ext|
+    puts "--> gzipping all #{ext}...".yellow
+    files = Dir.glob("#{$gzip_dir}/**/*.#{ext}")
+    files.each do |f|
+      @compressor.gzip(f)
+    end
+  end
+
+  puts "DONE."
+end
+
+desc "Minify all applicable files in public/ using jitify"
+task :minify do
+
+  unless which('jitify')
+    puts "WARNING: jitify is not installed on your system. Skipping minification..."
+    return
+  end
+
+  @compressor ||= RedDragonfly.new
+
+  $minify_exts.each do |ext|
+    puts "--> minifying all #{ext}...".yellow
+    files = Dir.glob("#{$minify_dir}/**/*.#{ext}")
+    files.each do |f|
+      @compressor.minify(f)
+    end
+  end
+
+  puts "DONE."
+
+end
+
+desc "Compress all images in public/ using ImageMagick"
+task :compress_images do
+
+  unless which('convert')
+    puts "WARNING: ImageMagick is not installed on your system. Skipping image compression..."
+    return
+  end
+
+  @compressor ||= RedDragonfly.new
+
+  $compress_img_exts.each do |ext|
+    puts "--> compressing all #{ext}...".yellow
+    files = Dir.glob("#{$compress_img_dir}/**/*.#{ext}")
+    files.each do |f|
+      @compressor.compress_img(f)
+    end
+  end
+
+  puts "DONE."
+
+end
+
+# ...
+
+##
+# invoke system which to check if a command is supported
+# from http://stackoverflow.com/questions/2108727/which-in-ruby-checking-if-program-exists-in-path-from-ruby
+# which('ruby') #=> /usr/bin/ruby
+def which(cmd)
+  system("which #{ cmd} > /dev/null 2>&1")
+end
+
