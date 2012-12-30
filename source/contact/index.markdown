@@ -7,5 +7,6 @@ footer: true
 ---
 I can be contacted via:
 
-* twitter: [@gpxl](http://www.twitter.com/gpxl)
-* email: [gerlando+rubytil@gmail.com](mailto:gerlando+rubytil@gmail.com)
+* Twitter: [@gpxl](http://www.twitter.com/gpxl)
+* GitHub: [gpxl](http://www.github.com/gpxl)
+* Email: [gerlando+rubytil@gmail.com](mailto:gerlando+rubytil@gmail.com)
