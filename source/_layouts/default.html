@@ -2,13 +2,16 @@
 {% include head.html %}
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
   <div id="Box">
-    <div id="Banner">{% include header.html %}</div>
-    <div id="Sidebar">{% include navigation.html %}</div>
+    <div id="Sidebar">
+      {% include header.html %}
+      {% include navigation.html %}
+      <div id="Footer">
+        {% include footer.html %}
+      </div>
+    </div>
     <div id="Main">
       {{ content | expand_urls: root_url }}
-      <div id="Footer">{% include footer.html %}</div>
     </div>
-    {% include after_footer.html %}
   </div>
 </body>
 </html>

@@ -5,6 +5,7 @@ published: true
 sharing: false
 footer: true
 ---
-Please address correspondence to:
+I can be contacted via:
 
-[comments@rubytil.com](mailto:comments@rubytil.com)
+* twitter: [@gpxl](http://www.twitter.com/gpxl)
+* email: [gerlando+rubytil@gmail.com](mailto:gerlando+rubytil@gmail.com)

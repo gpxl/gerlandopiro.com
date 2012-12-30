@@ -12,7 +12,7 @@ html {
 body {
 	margin-top: 0;
 	padding: 0;
-	font-family: 'Sentinel SSm A', 'Sentinel SSm B', Georgia, 'Times New Roman', serif;
+	font-family: proxima-nova, sans-serif;
 	line-height: 1.8em;
 	color: #4D4D4D;
 	text-align: left;
@@ -75,7 +75,6 @@ h1 {
   font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
 	font-size: 1.55em; 
 	line-height: 1.5em;
-	text-align: left;
 	font-weight: normal;
 	margin: 0em 0px 1.25em 0px;
 	}
@@ -374,8 +373,7 @@ input, select  {
 
 
 #Sidebar {
-	position: absolute;
-	top: 191px;
+	position: fixed;
 	width: 160px;
 	height: auto;
 	border: 0px dotted gray;
@@ -439,6 +437,15 @@ input, select  {
 #Sidebar a:hover {
 	color: #4D4D4D;
 	}
+
+#Sidebar hgroup {
+  margin-bottom: 1.6em;
+} 
+#Sidebar hgroup h1 {
+  font-size: 2.8em;
+  margin-bottom: 0;
+}
+
 
 
 #Splinks {
@@ -531,10 +538,10 @@ input, select  {
 }
 
 #Footer {
-	margin-top: 14em;
-	padding-bottom: 1em;
-	text-align: left;
+  position: fixed;
+  bottom: 0;
 	background-color: transparent;
+  width: 160px;
 	}
 
 /* ProjectSubmenu: Cribbed from Waferbaby... */
@@ -674,8 +681,6 @@ input, select  {
 	}
 
 .smallprint {
-	line-height: 4em;
-	text-align: left;
 	color: #aaa;
 	}
 .smallprint a:link {
@@ -772,6 +777,10 @@ dl + h2.dateline {
 	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
 	}
 
+article header {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
 
 .extended {
 	font-style: italic;
@@ -987,3 +996,4 @@ header {
 	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, Arial, sans-serif;
   font-size: 0.8em;
 }
+
