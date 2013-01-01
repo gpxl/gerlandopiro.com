@@ -4,7 +4,7 @@
   <title><![CDATA[Ruby TIL]]></title>
   <link href="http://www.rubytil.com/atom.xml" rel="self"/>
   <link href="http://www.rubytil.com/"/>
-  <updated>2012-12-29T16:52:09-08:00</updated>
+  <updated>2013-01-01T13:11:14-08:00</updated>
   <id>http://www.rubytil.com/</id>
   <author>
     <name><![CDATA[Gerlando Piro]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rands on Old Guard & New Guard Perspectives]]></title>
+    <link href="http://www.rubytil.com/2013/01/01/old-guard/"/>
+    <updated>2013-01-01T12:47:00-08:00</updated>
+    <id>http://www.rubytil.com/2013/01/01/old-guard</id>
+    <content type="html"><![CDATA[<p>The Old Guard</p>
+
+<blockquote><p>They have a well-defined internal map of the different parts of the company that consist of the rest of the Old Guard.</p></blockquote>
+
+<p>The New Guard</p>
+
+<blockquote><p>These folks have arrived in the last year and while they understand that there is culture and there are values out there, they spend a lot of time confused about these topics because no one has taken the time to sit them down and explain them and the folks who are qualified to do so are busy keeping the ship pointed in the right direction.</p></blockquote>
+
+<p>The Problem</p>
+
+<blockquote><p>&#8230;the Old Guard can’t conceive of a universe where everyone doesn’t know everything, and they have difficulty explaining what they find obvious.</p></blockquote>
+
+<p>Having been on both sides of this equation, I believe this issue could be effectively resolved through mentorship and collaboration but this requires the &#8220;Old Guard&#8221; to show a lot of empathy for the &#8220;New Guard&#8221;.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Forbes to Microsoft: Give Up]]></title>
+    <link href="http://www.rubytil.com/2012/12/30/forbes-to-microsoft-give-up/"/>
+    <updated>2012-12-30T20:13:00-08:00</updated>
+    <id>http://www.rubytil.com/2012/12/30/forbes-to-microsoft-give-up</id>
+    <content type="html"><![CDATA[<p>A few years ago such an article from Forbes would have been unheard of.</p>
+
+<blockquote><p>&#8230;it’s entirely possible for there to come a point in a company’s lifetime when that wealth maximising strategy is simply to stop investing in the future. To quite simply say that instead of investing billions upon billions for the next thing the company is going to sell, the correct answer is to invest nothing and return all the profits to shareholders.</p></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Jekyll/Octopress on AWS S3 &amp; CloudFront]]></title>
