@@ -1,0 +1,21 @@
+body {
+  background: url('/images/light_noise_diagonal.png');
+}
+
+.sidebar {
+  position: fixed;
+  background: url('/images/side_light_noise_diagonal.png');
+  width: 160px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  border-width: 0 0 0 1px;
+  box-shadow: -1px 1px 3px #999;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}

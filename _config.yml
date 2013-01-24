@@ -2,13 +2,13 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://www.rubytil.com
-title: Ruby TIL
+url: http://www.gerlandopiro.com
+title: Gerlando Piro
 subtitle: 
 author: Gerlando Piro
-email: comments@rubytil.com
+email: me@gerlandopiro.com
 simple_search: http://google.com/search
-description:
+description: Web Developer from Portland, OR. 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -102,6 +102,6 @@ facebook_like: false
 ## -- AWS Deploy config -- #
 access_key_id: "AKIAIPVW5WPX2RFFHS4Q"
 secret_access_key: "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"
-bucket: "rubytil.com"
+bucket: "gerlandopiro.com"
 acl: "public_read"
 cf_distribution_id: "E2OCQOCKAGCWSF"
