@@ -4,7 +4,7 @@
   <title><![CDATA[Gerlando Piro]]></title>
   <link href="http://www.gerlandopiro.com/atom.xml" rel="self"/>
   <link href="http://www.gerlandopiro.com/"/>
-  <updated>2013-01-23T23:12:09-08:00</updated>
+  <updated>2013-01-24T20:39:31-08:00</updated>
   <id>http://www.gerlandopiro.com/</id>
   <author>
     <name><![CDATA[Gerlando Piro]]></name>
@@ -12,5 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://www.gerlandopiro.com/2013/01/24/test/"/>
+    <updated>2013-01-24T18:35:00-08:00</updated>
+    <id>http://www.gerlandopiro.com/2013/01/24/test</id>
+    <content type="html"><![CDATA[<h2>h2</h2>
+
+<h3>h3</h3>
+
+<h4>h4</h4>
+
+<h5>h5</h5>
+
+<h6>h6</h6>
+
+<p>Yesterday I did not know how to eat gagh. and attack the Romulans. Our neural pathways have become accustomed to your sensory input patterns. Then maybe you should consider this: if anything happens to them, Starfleet is going to want a full investigation.</p>
+]]></content>
+  </entry>
   
 </feed>
