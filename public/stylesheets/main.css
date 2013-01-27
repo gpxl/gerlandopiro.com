@@ -56,8 +56,21 @@ a:hover {
 }
 
 h1.entry-title {
-  font-size: 48px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 38px;
+  line-height: 1.2em;
+  font-weight:normal;
   text-align: center;
+}
+
+h1.entry-title a {
+  color: #005580;
+}
+
+
+.entry-content {
+  font-size: 14px;
+  line-height: 1.6em;
 }
 
 @media (max-width: 767px) {
