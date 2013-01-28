@@ -7,7 +7,7 @@ sharing: true
 external-url:
 ---
 
-__That's not a typo in the title. I'm seriously challenging my self to pull in $5 in profit this year. Keep reading to hear why I consider this far from a trivial goal.__
+__That's not a typo in the title. I'm seriously challenging myself to pull in $5 in profit this year. Keep reading to hear why I consider this far from a trivial goal.__
 
 I've been working as a web developmer at various startups since the late 90s, and for many years I've dreamt of creating and selling a product of my own. I consider my design and dev skills to be decent but to date I have failed to launch anything of substance to call my own. 
 
