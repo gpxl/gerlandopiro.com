@@ -119,3 +119,9 @@ h1.entry-title a {
   }
 }
 
+@media (max-width: 640px) {
+  .sidebar h1 {
+    font-size: 18px;
+  }
+}
+
