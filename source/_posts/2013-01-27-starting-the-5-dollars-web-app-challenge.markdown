@@ -9,7 +9,7 @@ external-url:
 
 __That's not a typo in the title. I'm seriously challenging myself to pull in $5 in profit this year. Keep reading to hear why I consider this far from a trivial goal.__
 
-I've been working as a web developmer at various startups since the late 90s, and for many years I've dreamt of creating and selling a product of my own. I consider my design and dev skills to be decent but to date I have failed to launch anything of substance to call my own. 
+I've been working as a web developer at various startups since the late 90s, and for many years I've dreamt of creating and selling a product of my own. I consider my design and dev skills to be decent but to date I have failed to launch anything of substance to call my own. 
 
 The cause is certainly not from a lack of good role models. I've been lucky enough to work beside some wonderfully smart and ambitious people that have gone on to do, and continue to do, great things. I've followed the rise of people such as [Amy Hoy](http://unicornfree.com) since her Rails cheat sheet days, and more recently [Nathan Barry](http://nathanbarry.com) with his Designing Web Applications book.
 
