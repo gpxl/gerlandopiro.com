@@ -117,11 +117,25 @@ h1.entry-title a {
   ul.unstyled li:first-of-type {
     border-width: 0px;
   }
+  ul.unstyled li:last-of-type {
+    padding-right: 0px;
+  }
 }
 
 @media (max-width: 640px) {
+  .sidebar {
+    height: 35px;
+  }
   .sidebar h1 {
     font-size: 18px;
   }
+  ul.unstyled {
+    line-height: 0.8em;
+  }
+  ul.unstyled li {
+    display: inline;
+    font-size: 11px;
+  }
+
 }
 
