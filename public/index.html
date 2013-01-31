@@ -6,7 +6,7 @@
   <meta name="author" content="Gerlando Piro">
 
   
-  <meta name="description" content="As I alluded to in my initial $5 Web App Challenge post, I have not been a very active writer in the past. Over the years I&#8217;ve probably tried &hellip;">
+  <meta name="description" content="That&#8217;s not a typo in the title. I&#8217;m seriously challenging myself to pull in $5 in profit this year. Keep reading to hear why I consider &hellip;">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,60 +33,6 @@
         <div class="span8 main-content">
           <div class="blog-index">
   
-  
-  
-    <article>
-      
-  <header>
-    
-      
-        <h1 class="entry-title"><a href="/2013/01/30/the-minimalist-blogging-stack/">The Minimalist Blogging Stack</a></h1>
-      
-    
-  </header>
-
-
-  <div class="entry-content">
-    <p>As I alluded to in my initial $5 Web App Challenge post, I have not been a very active writer in the past. Over the years I&#8217;ve probably tried every blogging platform under the sun from hosted platforms like Blogger and Tumblr, to self hosted apps like Drupal and WordPress. Nothing ever seemed to click with me and I&#8217;d find myself spending my time yak shaving in hopes of progress. Inevitably I&#8217;d get frustrated and just give up, inspiration and motivation lost in the process. The solution, I found only recently, was to embrace constraints and simplify.</p>
-
-<p>My current blogging stack consists of <a href="http://www.iawriter.com">IA Writer</a> (editor), <a href="http://octopress.org">Octopress</a> (blog), and S3 (hosting). It&#8217;s a developer friendly set up so non-techies might have to learn some new tricks, but learning how to DIY never hurt anyone! Next I&#8217;ll break down how each layer in the stack helps me work faster, run cheaper, and stay focused on writing.</p>
-
-<h2>IA Writer</h2>
-
-<p>IA Writer is a wonderfully simple iOS and OSX text editor built for the sole purpose of distraction free writing. The application has practically no chrome and a few features, but the features that are extremely handy. First off is <strong>focus mode</strong>, a feature that allows you to focus on the current sentence by greying out all surrounding text. Files can be saved to iCloud so they are available when inspiration hits on any device with IA Writer installed. The iOS version adds special keys to ease navigating through documents by word or character.</p>
-
-<p>IA Writer also supports <a href="http://daringfireball.net/projects/markdown/syntax#overview">Markdown formatted documents</a>. This last feature is pretty awesome as Octopress also supports Markdown so you can easily cut and paste documents into an Octopress file or    <em>edit your Octopress files directly with IA Writer</em>. If you work that way you lose iCloud sharing across devices, but it&#8217;s nice to have the option.</p>
-
-<p>And finally, IA Writer has a preview window so you can see how your page will look before pushing it to your blog.</p>
-
-<h2>Octopress</h2>
-
-<p>Keeping with the simple theme, Octopress is a blogging framework that turns the Wordpress model of content management on it&#8217;s head. Instead of having managing content through a web application and pulling content form a database, Octopress generates a static version of your content on your local computer <em>before</em> pushing to a web server. There are numerous benefits to this technique including much better security, faster response times, and much lower web server requirements.</p>
-
-<p>Octopress posts are simple text files that can be edited in any text editor and automated tasks handle static file generation and web server deployment.</p>
-
-<p>Since the output of Octopress is static html and css, all you need is a web service that can handle static files, and that&#8217;s where S3 comes in.</p>
-
-<h2>Amazon S3</h2>
-
-<p><a href="https://aws.amazon.com/s3">Amazon S3</a>, or Simple Storage Service, has an intentionally minimal feature set for storing and retrieving static content. It&#8217;s very robust and extremely cost efficient with rates currently at $0.095/mo. for a GB of storage and $0.01 per 10,000 GET requests which means you can run a pretty well trafficked site for only pennies a month. The current version of Octopress does not come with support for deployments to S3 built in but it&#8217;s <a href="https://github.com/imathis/octopress/pull/107">coming soon</a>. So you&#8217;ll need to come up with your own method for syncing to S3 for now.</p>
-
-<h2>Wrapping Up</h2>
-
-<p>My writing efforts are still in the nascent stage, but I&#8217;m really enjoying the technologies that have been chosen. I would love to hear what tools you use in your blogging efforts.</p>
-
-    <div class="sharing well">
-  <h4>
-    Say hi on <a href="https://www.twitter.com/gpxl">Twitter</a>, <a href="mailto:me@gerlandopiro.com">email</a>, or subscribe via <a href="http://www.gerlandopiro.com/atom.xml">rss</a>.
-  </h4>
-</div>
-
-  </div>
-  
-  
-
-
-    </article>
   
   
     <article>
