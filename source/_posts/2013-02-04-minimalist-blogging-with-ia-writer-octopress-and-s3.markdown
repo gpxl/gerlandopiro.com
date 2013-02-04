@@ -6,7 +6,7 @@ published: true
 comments: true
 external-url:
 ---
-As I alluded to in my initial [$5 Web App Challenge](/2013/01/27/starting-the-5-dollars-web-app-challenge) post, I have not been an active writer in the past. In years past, I've probably tried every blogging platform under the sun from hosted platforms like Blogger and Tumblr, to self hosted apps like Drupal and WordPress. Nothing seemed to click and I'd find myself spending time [yak shaving](http://en.wiktionary.org/wiki/yak_shaving) instead of writing. Inevitably I'd get frustrated and give up; inspiration and motivation lost in the process. The solution, I found recently, was to embrace constraints and simplify.
+As I alluded to in my [$5 Web App Challenge](/2013/01/27/starting-the-5-dollars-web-app-challenge) post, I have not been an active writer in the past. In years past, I've tried nearmly every blogging platform available; from hosted platforms like Blogger and Tumblr, to self hosted apps like Drupal and WordPress. Nothing seemed to click and I'd find myself [yak shaving](http://en.wiktionary.org/wiki/yak_shaving) instead of writing. Every time I would get frustrated and lose inspiration and motivation. The solution, I found recently, was to embrace constraints and simplify.
 
 My current "blogging stack" consists of IA Writer, Octopress, and Amazon S3. It's a developer friendly set up so non-techies might have to learn new tricks, but learning how to DIY is in itself very rewarding. In this post break down how each layer in the stack helps me work faster, run cheaper, and stay focused on writing.
 
