@@ -51,13 +51,13 @@
 
 <p>My current &#8220;blogging stack&#8221; consists of IA Writer, Octopress, and Amazon S3. It&#8217;s a developer friendly set up so non-techies might have to learn new tricks, but learning how to DIY is in itself very rewarding. In this post break down how each layer in the stack helps me work faster, run cheaper, and stay focused on writing.</p>
 
-<h2>The Editor: IA Writer</h2>
+<h3>The Editor: IA Writer</h3>
 
 <p>The biggest improvement in my ability to write has been finding an editor that suited me well. <a href="http://www.iawriter.com">IA Writer</a> is a wonderfully simple iOS and OSX text editor built for the sole purpose of distraction free writing. The application has practically no chrome and few features, but the features it <em>does</em> have are extremely handy. First off is <strong>focus mode</strong>, this feature allows you to focus on the current sentence by greying out all surrounding text. Files can be saved to iCloud you can write and edit on either iOS or OSX whenever inspiration hits. The iOS version adds special keys to ease navigating through documents by word or character.</p>
 
 <p>Most important in my mind is that IA Writer supports <a href="http://daringfireball.net/projects/markdown/syntax#overview">Markdown formatted documents</a>. This last feature is pretty awesome as the blog software I use, Octopress, also supports Markdown. This shared feature means you can easily cut and paste documents into an Octopress file or <em>edit your Octopress files directly with IA Writer</em>. IA Writer has a preview window so you can be sure your Markdown renders as you expect it to.</p>
 
-<h2>The Blog: Octopress</h2>
+<h3>The Blog: Octopress</h3>
 
 <p>In keeping with the theme of simplicity, I prefer <a href="http://octopress.org">Octopress</a> as my blogging platform. Most blog platforms, such as Wordpress, are delivered as web applications. In contrast, Octopress is a static file compiler that generates your entire site on your local computer <em>before</em> pushing to a web server. Octopress does not require a web application to deliver or manage content and as such, benefits from better security, faster response times, and much lower web server requirements.</p>
 
@@ -65,13 +65,13 @@
 
 <p>Since the output of Octopress is static html and css, all you need is a web service that can handle static files, and that&#8217;s where Amazon S3 comes in.</p>
 
-<h2>The Web Host: Amazon S3</h2>
+<h3>The Web Host: Amazon S3</h3>
 
 <p><a href="https://aws.amazon.com/s3">Amazon S3</a> has an intentionally minimal feature set for storing and retrieving static content. It&#8217;s very robust and extremely cost efficient with rates currently at $0.095/mo. for a GB of storage and $0.01 per 10,000 GET requests which means you can run a pretty well trafficked site for only pennies a month. Amazon consistently improves service and prices in their efforts to dominate market share, so  S3&#8217;s value over time will only increase.</p>
 
 <p>Octopress does not currently support deployments to S3 by default, but it&#8217;s <a href="https://github.com/imathis/octopress/pull/107">coming soon</a> and there are some <a href="http://www.jerome-bernard.com/blog/2011/08/20/quick-tip-for-easily-deploying-octopress-blog-on-amazon-cloudfront">good articles</a> on how to DIY it for the impatient.</p>
 
-<h2>Wrapping Up</h2>
+<h3>Wrapping Up</h3>
 
 <p>My writing efforts are still in the nascent stage, but I&#8217;m confident I have finally have a set of tools that match my preferred way of working. Embracing constraints and using a few simple tools has allowed me to focus on the task of writing and to publish on a reliable, robust web host for pennies a month.</p>
 
