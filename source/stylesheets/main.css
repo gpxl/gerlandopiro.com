@@ -8,11 +8,6 @@ a:hover {
   text-decoration: none;
 }
 
-.main-content {
-  margin-top: 40px;
-  padding-left: 20px;
-}
-
 .container-fluid {
   padding: 0;
 }
@@ -20,8 +15,8 @@ a:hover {
 .home {
   position: fixed;
   top: 0;
-  left: 20px;
-  background: url('/images/side_light_noise_diagonal.png');
+  left: 0;
+  background: #dedbcf;
   border: 1px solid #fff;
   border-width: 0 0 0 1px;
   box-shadow: 0 1px 3px #999;
@@ -36,7 +31,6 @@ a:hover {
 
 .header, .footer {
   background: url('/images/side_light_noise_diagonal.png');
-  padding: 0 0 0 100px;
   border: 1px solid #fff;
   border-width: 0 0 1px 0;
   box-shadow: 0 1px 3px #999;
@@ -95,6 +89,10 @@ h1.entry-title a {
 .entry-content {
   font-size: 16px;
   line-height: 1.8em;
+}
+
+article {
+  margin: 3em 0 5em 0;
 }
 
 .sharing {
