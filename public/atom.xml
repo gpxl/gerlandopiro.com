@@ -4,7 +4,7 @@
   <title><![CDATA[Gerlando Piro]]></title>
   <link href="http://www.gerlandopiro.com/atom.xml" rel="self"/>
   <link href="http://www.gerlandopiro.com/"/>
-  <updated>2013-02-04T08:58:33-08:00</updated>
+  <updated>2013-02-06T18:17:46-08:00</updated>
   <id>http://www.gerlandopiro.com/</id>
   <author>
     <name><![CDATA[Gerlando Piro]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Do We Need Yet Another Stripe Checkout App?]]></title>
+    <link href="http://www.gerlandopiro.com/2013/02/06/do-we-need-yet-another-stripe-checkout-app/"/>
+    <updated>2013-02-06T17:01:00-08:00</updated>
+    <id>http://www.gerlandopiro.com/2013/02/06/do-we-need-yet-another-stripe-checkout-app</id>
+    <content type="html"><![CDATA[<p>Wouldn&#8217;t it be awesome to create a service that would make it easy for anyone to easily sell digital goods online? That&#8217;s the thought that motivated me to start the <a href="http://www.gerlandopiro.com/2013/01/27/starting-the-5-dollars-web-app-challenge">$5 Web App Challenge</a>. But as I researched the market, doubt crept in. The ease with which a web application can be wrapped around <a href="https://stripe.com/">Stripe</a>&#8217;s payment api has already caused a mini boom in such services. With established players such as <a href="https://gumroad.com">GumRoad</a>, <a href="https://sellfy.com">Sellfy</a>, <a href="https://spacebox.io">Space Box</a>, and numerous others quickly crowding the space I began to wonder… do we really need another Stripe checkout app?</p>
+
+<p>The appeal of creating such a site is strong as it fits a number of criteria I was looking towards when envisioning an app. The heavy lifting, payment processing, is off loaded to a third party. The MVP for the app is very narrow in scope. The market opportunity has been validated by the funding and competition already in the space. And there is clearly a need for such services in the number of <a href="https://gumroad.com/l/QVGo">high</a> <a href="https://sellfy.com/p/5ct4">profile</a> <a href="https://gumroad.com/l/DesigningWebApplications">creatives</a> already using them.</p>
+
+<p>However, it&#8217;s not all unicorns and rainbows. The fees charged in this niche are extremely low, 1-2% per transaction (on top of Stripe&#8217;s 2.9% + $0.30 fee). A back of the napkin calculation shows that a run rate of nearly $2.5-5M is required to earn $50k/yr. With little to differentiate each other it will be difficult for any one service to charge a higher fee. That being the case, I would expect funded companies in this group to build their own payment systems to capture the 2.9% currently going to Stripe while continuing to target the general market for growth. The smaller players will need to go niche in an attempt to raise fees.</p>
+
+<p>So no, the world does not need another Stripe landing page service, at least not one by me! Accepting this was tough as it set me back to square one with no idea of where to start. But doing so allowed new and better ideas to grow.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Minimalist Blogging with IA Writer, Octopress and S3]]></title>

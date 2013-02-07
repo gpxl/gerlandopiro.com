@@ -1,21 +1,22 @@
 body {
-  background: url('/images/light_noise_diagonal.png');
+  background: #dedbcf;
+  font-weight: 300;
+  color: #666;
 }
 
 a:hover {
   text-decoration: none;
 }
 
-.main-content {
-  margin-top: 40px;
-  padding-left: 20px;
+.container-fluid {
+  padding: 0;
 }
 
 .home {
   position: fixed;
   top: 0;
   left: 20px;
-  background: url('/images/side_light_noise_diagonal.png');
+  background: #dedbcf;
   border: 1px solid #fff;
   border-width: 0 0 0 1px;
   box-shadow: 0 1px 3px #999;
@@ -28,114 +29,73 @@ a:hover {
   color: #666;
 }
 
-.sidebar {
-  position: fixed;
+.header, .footer {
   background: url('/images/side_light_noise_diagonal.png');
-  width: 180px;
-  height: 100%;
-  top: 0;
-  right: 0;
-  padding: 20px 30px;
+  padding: 0 0 0 100px;
   border: 1px solid #fff;
-  border-width: 0 0 0 1px;
-  box-shadow: -1px 1px 3px #999;
+  border-width: 0 0 1px 0;
+  box-shadow: 0 1px 3px #999;
   color: #666;
 }
 
-.sidebar h1, .sidebar h1 a, .sidebar h1 a:hover {
+.footer {
+  padding: 10px;;
+  border-width: 1px 0 0 0;
+  box-shadow: 0 -1px 3px #999;
+}
+
+ul.unstyled {
+  margin: 0;
+}
+ul.unstyled li {
+  display: inline;
+  font-size: 12px;
+  line-height: 1em;
+  width: auto;
+  border: 1px solid #666;
+  border-width: 0 0 0 1px;
+  padding: 0 5px;
+}
+
+ul.unstyled li:first-of-type {
+  border-width: 0px;
+}
+ul.unstyled li:last-of-type {
+  padding-right: 0px;
+}
+
+.header h1, .header h1 a, .header h1 a:hover {
+  display: inline-block;
+  margin-right: 2px;
   text-decoration: none;
   text-shadow: 2px 2px #ccc;
   color: #fff
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 180px;
-  text-align: right;
+.header p {
+  display: inline-block;
 }
 
 h1.entry-title {
-  font-family: "Times New Roman", Times, serif;
   font-size: 38px;
   line-height: 1.2em;
-  font-weight:normal;
+  font-weight: 600;
   text-align: center;
 }
 
 h1.entry-title a {
-  color: #005580;
+  color: #333;
 }
-
 
 .entry-content {
-  font-size: 14px;
-  line-height: 1.6em;
+  font-size: 16px;
+  line-height: 1.8em;
 }
 
-@media (max-width: 767px) {
-  .sidebar {
-    width: 100%;
-    height: 40px;
-    top: auto;
-    bottom: 0;
-    right: auto;
-    left: 0;
-    padding: 10px 20px;
-    border: 1px solid #fff;
-    border-width: 1px 0 0 0;
-    box-shadow: 1px -1px 3px #999;
-    font-size: 11px;
-  }
-  .sidebar h1 {
-    display: block;
-    margin: 0;
-    font-size: 28px;
-    line-height: 0.8em;
-  }
-  p {
-    display: inline-block;
-  }
-  .footer {
-    position: fixed;
-    bottom: 0px;
-    right: 20px;
-  }
-  ul.unstyled {
-    margin: 0;
-  }
-  ul.unstyled li {
-    display: inline;
-    font-size: 12px;
-    line-height: 1em;
-    width: auto;
-    border: 1px solid #666;
-    border-width: 0 0 0 1px;
-    padding: 0 5px;
-  }
-  
-  ul.unstyled li:first-of-type {
-    border-width: 0px;
-  }
-  ul.unstyled li:last-of-type {
-    padding-right: 0px;
-  }
+article {
+  margin: 3em 0 5em 0;
 }
 
-@media (max-width: 640px) {
-  .sidebar {
-    height: 35px;
-  }
-  .sidebar h1 {
-    font-size: 18px;
-  }
-  ul.unstyled {
-    line-height: 0.8em;
-  }
-  ul.unstyled li {
-    display: inline;
-    font-size: 11px;
-  }
-
+.sharing {
+  background: url('/images/side_light_noise_diagonal.png');
 }
-

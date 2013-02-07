@@ -6,7 +6,7 @@
   <meta name="author" content="Gerlando Piro">
 
   
-  <meta name="description" content="As I alluded to in my $5 Web App Challenge post, I have not been an active writer in the past. In years past, I&#8217;ve tried nearmly every &hellip;">
+  <meta name="description" content="Wouldn&#8217;t it be awesome to create a service that would make it easy for anyone to easily sell digital goods online? That&#8217;s the thought &hellip;">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,6 @@
   <link rel="canonical" href="http://www.gerlandopiro.com/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
-  <link href="/stylesheets/bootstrap-responsive.min.css" media="screen" rel="stylesheet" type="text/css">
   <link href="/stylesheets/main.css" media="screen" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Gerlando Piro" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -27,12 +26,54 @@
 </head>
 
   <body   >
+    <div class="header row-fluid">
+  <div class="span12">
+    <h1><a href="/">Gerlando Piro</a></h1>
+    <p>Web Developer from Portland, OR.</p>
+  </div>
+</div>
+
+
     <div class="container-fluid">
       <div class="home"><a href="/"><span>Home</span></a></div>
       <div class="row-fluid">
-        <div class="span8 main-content">
+        <div class="offset1 span10 main-content">
           <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      
+        <h1 class="entry-title"><a href="/2013/02/06/do-we-need-yet-another-stripe-checkout-app/">Do We Need Yet Another Stripe Checkout App?</a></h1>
+      
+    
+  </header>
+
+
+  <div class="entry-content">
+    <p>Wouldn&#8217;t it be awesome to create a service that would make it easy for anyone to easily sell digital goods online? That&#8217;s the thought that motivated me to start the <a href="/2013/01/27/starting-the-5-dollars-web-app-challenge">$5 Web App Challenge</a>. But as I researched the market, doubt crept in. The ease with which a web application can be wrapped around <a href="https://stripe.com/">Stripe</a>&#8217;s payment api has already caused a mini boom in such services. With established players such as <a href="https://gumroad.com">GumRoad</a>, <a href="https://sellfy.com">Sellfy</a>, <a href="https://spacebox.io">Space Box</a>, and numerous others quickly crowding the space I began to wonder… do we really need another Stripe checkout app?</p>
+
+<p>The appeal of creating such a site is strong as it fits a number of criteria I was looking towards when envisioning an app. The heavy lifting, payment processing, is off loaded to a third party. The MVP for the app is very narrow in scope. The market opportunity has been validated by the funding and competition already in the space. And there is clearly a need for such services in the number of <a href="https://gumroad.com/l/QVGo">high</a> <a href="https://sellfy.com/p/5ct4">profile</a> <a href="https://gumroad.com/l/DesigningWebApplications">creatives</a> already using them.</p>
+
+<p>However, it&#8217;s not all unicorns and rainbows. The fees charged in this niche are extremely low, 1-2% per transaction (on top of Stripe&#8217;s 2.9% + $0.30 fee). A back of the napkin calculation shows that a run rate of nearly $2.5-5M is required to earn $50k/yr. With little to differentiate each other it will be difficult for any one service to charge a higher fee. That being the case, I would expect funded companies in this group to build their own payment systems to capture the 2.9% currently going to Stripe while continuing to target the general market for growth. The smaller players will need to go niche in an attempt to raise fees.</p>
+
+<p>So no, the world does not need another Stripe landing page service, at least not one by me! Accepting this was tough as it set me back to square one with no idea of where to start. But doing so allowed new and better ideas to grow.</p>
+
+    <div class="sharing well">
+  <h4>
+    Say hi on <a href="https://www.twitter.com/gpxl">Twitter</a>, <a href="mailto:me@gerlandopiro.com">email</a>, or subscribe via <a href="http://www.gerlandopiro.com/atom.xml">rss</a>.
+  </h4>
+</div>
+
+  </div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -151,13 +192,8 @@
 </aside>
 
         </div>
-        <div class="span4">
-          <div class="sidebar">
-            <h1><a href="/">Gerlando Piro</a></h1>
-<p>Web Developer from Portland, OR.</p>
-
-
-            <div class="footer">
+      </div>
+      <div class="footer">
   <ul class="unstyled">
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   <li><a href="http://www.twitter.com/gpxl">on Twitter</a></li>
@@ -170,9 +206,6 @@
 </div>
 
 
-          </div>
-        </div>
-      </div>
     </div>
   </body>
 </html>
