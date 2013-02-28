@@ -3,7 +3,7 @@ layout: post
 title: "Lesson Learned: One Month into the $5 Web App Challenge"
 date: 2013-02-27 22:28
 published: true
-comments: true
+comments: false
 external-url:
 ---
 It's been one month since I decided to try launching a product with the goal of generating $5 in profit. I'm still in the research and planning phase, but I've already learned a valuable lesson for making progress in the early days of a new product.

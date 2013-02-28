@@ -3,7 +3,7 @@ layout: post
 title: "Overcoming Introversion Through Writing"
 date: 2013-02-16 00:00
 published: true
-comments: true
+comments: false
 external-url:
 ---
 Ever since I was a kid I have found communication difficult. I avoid picking up phone calls from unknown numbers and I stumble over words when talking with friends as I am constantly searching for the right way to say something _while I'm in the middle of saying it!_ Now that I'm making an effort to document [my experience building a web app](/2013/01/27/starting-the-5-dollars-web-app-challenge), it's become clear that writing is a wonderful outlet for improving confidence in communicating and overcoming introversion.

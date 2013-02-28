@@ -3,7 +3,7 @@ layout: post
 title: "Starting the $5 Web App Challenge"
 date: 2013-01-27 13:26
 published: true
-comments: true
+comments: false
 external-url:
 ---
 

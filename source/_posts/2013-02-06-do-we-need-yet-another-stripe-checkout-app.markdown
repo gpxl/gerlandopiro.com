@@ -3,7 +3,7 @@ layout: post
 title: "Do We Need Yet Another Stripe Checkout App?"
 date: 2013-02-06 17:01
 published: true
-comments: true
+comments: false
 external-url:
 ---
 
