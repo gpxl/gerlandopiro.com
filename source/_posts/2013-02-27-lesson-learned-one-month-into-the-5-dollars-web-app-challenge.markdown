@@ -6,7 +6,7 @@ published: true
 comments: false
 external-url:
 ---
-It's been one month since I decided to try launching a product with the goal of generating $5 in profit. I'm still in the research and planning phase, but I've already learned a valuable lesson for making progress in the early days of a new product.
+It's been one month since [I challenged myself](http://www.gerlandopiro.com/2013/01/27/starting-the-5-dollars-web-app-challenge) to launch a product with the goal of generating $5 in profit. I'm still in the research and planning phase, but I've already learned a valuable lesson for making progress in the early days of a new product.
 
 ## Share Early
 
