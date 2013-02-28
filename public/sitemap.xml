@@ -23,8 +23,14 @@
         <lastmod>2013-02-16T10:30:59-08:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://www.gerlandopiro.com/2013/02/27/lesson-learned-one-month-into-the-5-dollars-web-app-challenge/
+        </loc>
+        <lastmod>2013-02-27T22:28:59-08:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.gerlandopiro.com/blog/archives/</loc>
-        <lastmod>2013-02-16T10:30:59-08:00</lastmod>
+        <lastmod>2013-02-27T22:28:59-08:00</lastmod>
     </url>
     <url>
         <loc>http://www.gerlandopiro.com/colophon/</loc>
@@ -36,6 +42,6 @@
     </url>
     <url>
         <loc>http://www.gerlandopiro.com/</loc>
-        <lastmod>2013-02-16T10:30:59-08:00</lastmod>
+        <lastmod>2013-02-27T22:28:59-08:00</lastmod>
     </url>
 </urlset>
