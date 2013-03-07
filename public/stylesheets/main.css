@@ -96,3 +96,15 @@ article {
 .sharing {
   background: url('/images/side_light_noise_diagonal.png');
 }
+
+#mc_embed_signup form {
+  padding-left: 0;
+}
+#mc_embed_signup .mc-field-group {
+  display: inline-block;
+  width: 250px;
+}
+#mc_embed_signup .button {
+  height: 37px;
+  margin-left: 10px;
+}
