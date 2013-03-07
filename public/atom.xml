@@ -4,7 +4,7 @@
   <title><![CDATA[Gerlando Piro]]></title>
   <link href="http://www.gerlandopiro.com/atom.xml" rel="self"/>
   <link href="http://www.gerlandopiro.com/"/>
-  <updated>2013-03-06T22:47:45-08:00</updated>
+  <updated>2013-03-07T09:27:53-08:00</updated>
   <id>http://www.gerlandopiro.com/</id>
   <author>
     <name><![CDATA[Gerlando Piro]]></name>
@@ -12,6 +12,59 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Gems to use when crafting a Rails MVP]]></title>
+    <link href="http://www.gerlandopiro.com/2013/03/07/gems-to-use-when-crafting-a-rails-mvp/"/>
+    <updated>2013-03-07T09:19:00-08:00</updated>
+    <id>http://www.gerlandopiro.com/2013/03/07/gems-to-use-when-crafting-a-rails-mvp</id>
+    <content type="html"><![CDATA[<p>When creating a new web application there&#8217;s some basic functionality that you will probably want to add and get out of the way so you can start building out your core business logic. A lot of that functionality can be found pre-baked in the RubyGems ecosystem but the overwhelming number of gems, 52k and counting, makes it hard to know what to use and what&#8217;s crap. Here&#8217;s a list of useful gems to get your app bootstrapped so the real work can begin.</p>
+
+<h2>Authentication</h2>
+
+<p>Almost every web application needs user authentication and authorization capabilities. The gems below make it easy.</p>
+
+<p><strong><a href="http://rubygems.org/gems/devise">Devise</a></strong>: Devise is a flexible authentication solution that makes it easy to add user registration and login capabilities to your app. Devise has built-in Omniauth support so you can quickly integrate with 3rd parties such as <a href="https://github.com/arunagw/omniauth-twitter">Twitter</a>, <a href="https://github.com/mkdynamic/omniauth-facebook">Facebook</a>, and just about <a href="https://github.com/intridea/omniauth/wiki/List-of-Strategies">everyone else</a>.</p>
+
+<p><strong><a href="http://rubygems.org/gems/cancan">CanCan</a></strong>: CanCan is an authorization solution that works well with Devise and makes implementing access roles easy. All roles are defined in an Ability class that works with your User attributes to allow/deny access to your controller actions.</p>
+
+<h2>Upload management</h2>
+
+<p>If your users want to contribute assets, let them!</p>
+
+<p><strong><a href="http://rubygems.org/gems/paperclip">Paperclip</a></strong>: Paperclip makes adding files to models relatively simple. You can configure image files for post-processing with Imagemagick. And out of the box Paperclip supports local file, S3, and fog storage with Azure and Dropbox available as add-on gems.</p>
+
+<p><em>(alternative)</em> <strong>_CarrierWave</strong>: I have not used CarrierWave yet since Paperclip gets the job done. I&#8217;ve heard some say they prefer it over Paperclip so it&#8217;s worth checking out if Paperclip doesn&#8217;t float your boat.</p>
+
+<h2>Payment Processing</h2>
+
+<p>What&#8217;s the point in having customers if you can&#8217;t bill them?</p>
+
+<p><strong><a href="http://rubygems.org/gems/stripe">Stripe</a></strong>: <a href="https://stripe.com/">Stripe</a> refers to itself as themselves as &#8220;Payments for developers&#8221; and so it&#8217;s fitting that they have an excellent api and robust tools to make it easy to integrate. You can also allow your customers to take payments through your site, although they need to have a Stripe account as well.</p>
+
+<p><em>(alternative)</em> <strong>_<a href="http://rubygems.org/gems/activemerchant">Active Merchant</a></strong>: If you want to support multiple payment processors Active Merchant is the way to go. It provides an abstraction layer that supports a ridiculous amount of <a href="https://github.com/Shopify/active_merchant/wiki/gatewayfeaturematrix">gateways</a>. Active Merchant was a direct extraction from <a href="http://www.shopify.com">Shopify</a> so it&#8217;s been &#8216;battle-tested&#8217;.</p>
+
+<h2>Frontend</h2>
+
+<p>These make life easier for developers writing the view layer, and for users submitting text content.</p>
+
+<p><strong><a href="http://rubygems.org/gems/haml">Haml</a></strong>: <a href="http://haml.info">Haml</a> is an alternative syntax for html that, in my opinion, is WAY better to work with than plain HTML. Unlike HTML it&#8217;s whitespace sensitive and does not require closing tags. This does a good job of enforcing proper formatting habits and removes the mental overhead of closing tags in your more heavily nested pieces of layout.</p>
+
+<p>I&#8217;ve interacted with some that absolutely hate Haml so it&#8217;s certainly a  personal preference, but I would suggest you give it a chance.</p>
+
+<p><strong><a href="http://rubygems.org/gems/github-markdown">github-markdown</a></strong>: Markdown is a lightweight syntax that makes writing and formatting text easy. Github&#8217;s variant adds a few changes to traditional <a href="http://daringfireball.net/projects/markdown">Markdown</a> syntax and, since they use it extensively on Github.com, it should be well supported for the foreseeable future.</p>
+
+<h2>SEO</h2>
+
+<p>The grey area of the web&#8230;</p>
+
+<p><strong><a href="http://rubygems.org/gems/friendly_id">Friendly Id</a></strong>: Rails surprisingly does not come out of the box with SEO friendly urls. Friendly Id fixes this by giving human-friendly strings to your data objects. You can choose one of the existing attributes in your model or pass in a generated slug. This is super handy if you want to have public, but obfuscated, urls.</p>
+
+<h3>What are your picks?</h3>
+
+<p>This is far from an exhaustive list, but it covers the gems I use most frequently. Now it&#8217;s your turn, <a href="http://www.twitter.com/gpxl">let me know</a> what gems you use to bootstrap your MVPs.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lesson Learned: One Month into the $5 Web App Challenge]]></title>
