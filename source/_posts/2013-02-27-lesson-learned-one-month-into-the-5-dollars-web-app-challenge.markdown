@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Lesson Learned: One Month into the $5 Web App Challenge"
+excerpt: "The power of sharing should not be underestimated"
 date: 2013-02-27 22:28
 published: true
 comments: false
 external-url:
+
 ---
 It's been one month since [I challenged myself](http://www.gerlandopiro.com/2013/01/27/starting-the-5-dollars-web-app-challenge) to launch a product with the goal of generating $5 in profit. I'm still in the research and planning phase, but I've already learned a valuable lesson for making progress in the early days of a new product.
 

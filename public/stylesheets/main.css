@@ -90,7 +90,7 @@ h1.entry-title a {
 }
 
 article {
-  margin: 0 0 5em 0;
+  margin: 2em 0 4em 0;
 }
 
 .sharing {
@@ -107,4 +107,8 @@ article {
 #mc_embed_signup .button {
   height: 37px;
   margin-left: 10px;
+}
+
+.row-fluid .well {
+  padding: 19px 0;
 }

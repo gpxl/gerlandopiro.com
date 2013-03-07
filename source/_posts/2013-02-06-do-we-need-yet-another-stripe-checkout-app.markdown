@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Do We Need Yet Another Stripe Checkout App?"
+excerpt: "Is it too early to call this a pivot?"
 date: 2013-02-06 17:01
 published: true
 comments: false

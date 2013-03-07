@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Starting the $5 Web App Challenge"
+excerpt: "Thinking big while starting small."
 date: 2013-01-27 13:26
 published: true
 comments: false

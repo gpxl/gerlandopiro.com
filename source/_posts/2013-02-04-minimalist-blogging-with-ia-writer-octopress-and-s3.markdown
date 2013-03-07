@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Minimalist Blogging with IA Writer, Octopress and S3"
+excerpt: "Practicing simplicity on this very site."
 date: 2013-02-04 08:51
 published: true
 comments: false

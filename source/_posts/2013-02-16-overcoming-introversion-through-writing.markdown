@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Overcoming Introversion Through Writing"
+excerpt: "What I learned from World War II POWs."
 date: 2013-02-16 00:00
 published: true
 comments: false
