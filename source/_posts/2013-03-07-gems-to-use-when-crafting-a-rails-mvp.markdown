@@ -24,7 +24,7 @@ If your users want to contribute assets, let them!
 
 __[Paperclip](http://rubygems.org/gems/paperclip)__: Paperclip makes adding files to models relatively simple. You can configure image files for post-processing with Imagemagick. And out of the box Paperclip supports local file, S3, and fog storage with Azure and Dropbox available as add-on gems.   
 
-_(alternative)_ ___CarrierWave__: I have not used CarrierWave yet since Paperclip gets the job done. I've heard some say they prefer it over Paperclip so it's worth checking out if Paperclip doesn't float your boat.
+_(alternative)_ __[CarrierWave](https://rubygems.org/gems/carrierwave)__: I have not used CarrierWave yet since Paperclip gets the job done. I've heard some say they prefer it over Paperclip so it's worth checking out if Paperclip doesn't float your boat.
 
 ## Payment Processing
 
@@ -32,7 +32,7 @@ What's the point in having customers if you can't bill them?
 
 __[Stripe](http://rubygems.org/gems/stripe)__: [Stripe](https://stripe.com/) refers to itself as themselves as "Payments for developers" and so it's fitting that they have an excellent api and robust tools to make it easy to integrate. You can also allow your customers to take payments through your site, although they need to have a Stripe account as well. 
 
-_(alternative)_ ___[Active Merchant](http://rubygems.org/gems/activemerchant)__: If you want to support multiple payment processors Active Merchant is the way to go. It provides an abstraction layer that supports a ridiculous amount of [gateways](https://github.com/Shopify/active_merchant/wiki/gatewayfeaturematrix). Active Merchant was a direct extraction from [Shopify](http://www.shopify.com) so it's been 'battle-tested'.
+_(alternative)_ __[Active Merchant](http://rubygems.org/gems/activemerchant)__: If you want to support multiple payment processors Active Merchant is the way to go. It provides an abstraction layer that supports a ridiculous amount of [gateways](https://github.com/Shopify/active_merchant/wiki/gatewayfeaturematrix). Active Merchant was a direct extraction from [Shopify](http://www.shopify.com) so it's been 'battle-tested'.
 
 ## Frontend
 
