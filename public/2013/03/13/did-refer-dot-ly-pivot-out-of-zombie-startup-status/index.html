@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Gems to use when crafting a Rails MVP - Gerlando Piro</title>
+  <title>Did Refer.ly pivot out of Zombie Startup status? - Gerlando Piro</title>
   <meta name="author" content="Gerlando Piro">
 
   
-  <meta name="description" content="When creating a new web application there&#8217;s some basic functionality that you will probably want to add and get out of the way so you can &hellip;">
+  <meta name="description" content="Danielle Morrill recently wrote about zombie startups in reference to Referly&#8217;s pivot from an affiliate link enabler to a blogging platform. &hellip;">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.gerlandopiro.com/2013/03/07/gems-to-use-when-crafting-a-rails-mvp/">
+  <link rel="canonical" href="http://www.gerlandopiro.com/2013/03/13/did-refer-dot-ly-pivot-out-of-zombie-startup-status/">
   <link href="/favicon.png" rel="icon">
   <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
   <link href="/stylesheets/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
@@ -53,7 +53,7 @@
   <header>
     
       
-        <h1 class="entry-title"><a href="/2013/03/07/gems-to-use-when-crafting-a-rails-mvp/">Gems to Use When Crafting a Rails MVP</a></h1>
+        <h1 class="entry-title"><a href="/2013/03/13/did-refer-dot-ly-pivot-out-of-zombie-startup-status/">Did Refer.ly Pivot Out of Zombie Startup Status?</a></h1>
       
       
         <p class="meta">
@@ -69,7 +69,7 @@
   
 
 
-<time datetime="2013-03-07T09:19:00-08:00" pubdate data-updated="true">Mar 7<span>th</span>, 2013</time>
+<time datetime="2013-03-13T09:07:00-07:00" pubdate data-updated="true">Mar 13<span>th</span>, 2013</time>
           
         </p>
       
@@ -78,51 +78,17 @@
 
 
   <div class="entry-content">
-    <p>When creating a new web application there&#8217;s some basic functionality that you will probably want to add and get out of the way so you can start building out your core business logic. A lot of that functionality can be found pre-baked in the RubyGems ecosystem but the overwhelming number of gems, 52k and counting, makes it hard to know what to use and what&#8217;s crap. Here&#8217;s a list of useful gems to get your app bootstrapped so the real work can begin.</p>
+    <p>Danielle Morrill recently <a href="http://www.daniellemorrill.com/2013/03/zombie-startups">wrote about zombie startups</a> in reference to  Referly&#8217;s <a href="https://refer.ly/please-read-referly-discontinuing-rewards-paying-existing-links-through-march-31st/c/67f9d3fa890311e2bfbf22000a1db8fa#comments-container">pivot</a> from an affiliate link enabler to a blogging platform.</p>
 
-<h2>Authentication</h2>
+<p>Refer.ly launched in June 2012 as a Y Combinator backed startup that made it easy for anyone to create and share affiliate links. It&#8217;s a novel idea but parallels can be drawn to Gumroad in that the main business model is an add-on service with extremely small margins. As I wrote in my <a href="http://www.gerlandopiro.com/2013/02/06/do-we-need-yet-another-stripe-checkout-app">analysis of Gumroad and other Stripe payment apps</a>, making a decent revenue stream, in this case one that can pay staff <em>and</em> satisfy investors, is extremely difficult unless you attain moonshot levels of growth.</p>
 
-<p>Almost every web application needs user authentication and authorization capabilities. The gems below make it easy.</p>
+<p>In the Danielle&#8217; zombie post she illustrates the point, although not directly. Refer.ly&#8217;s <a href="http://farm9.staticflickr.com/8527/8545783275_14ae3b7e75_o.png">visitor growth</a> has been robust, but revenue was not. Clearly a change needed to be made to align their business with where they were gaining traction, unfortunately I think they&#8217;ve put themselves into a weak position but pivoting into yet another blogging platform. They&#8217;re entering a crowded market littered with high profile casualties such as <a href="https://blog.posterous.com/thanks-from-posterous">Posterous</a>, they still have no clear revenue model, and their new tagline, &#8220;A new kind of magazine for thoughtful shoppers.&#8221;, could only be more nondescript with significant effort.</p>
 
-<p><strong><a href="http://rubygems.org/gems/devise">Devise</a></strong>: Devise is a flexible authentication solution that makes it easy to add user registration and login capabilities to your app. Devise has built-in Omniauth support so you can quickly integrate with 3rd parties such as <a href="https://github.com/arunagw/omniauth-twitter">Twitter</a>, <a href="https://github.com/mkdynamic/omniauth-facebook">Facebook</a>, and just about <a href="https://github.com/intridea/omniauth/wiki/List-of-Strategies">everyone else</a>.</p>
+<p>When a startup pivots from a questionable revenue model to one reliant on page views and a sales you have to wonder how long until they pivot again or sell themselves as an aquihire.</p>
 
-<p><strong><a href="http://rubygems.org/gems/cancan">CanCan</a></strong>: CanCan is an authorization solution that works well with Devise and makes implementing access roles easy. All roles are defined in an Ability class that works with your User attributes to allow/deny access to your controller actions.</p>
+<p>One wonders if Refer.ly could have been successful if they had not taken the VC funded, quick growth approach. Fatwallet and RetailMeNot were both bootstrapped and generate revenue from affiliate fees. Without the pressures of VC money to grow fast or die, both grew organically and eventually sold for large sums of money.</p>
 
-<h2>Upload management</h2>
-
-<p>If your users want to contribute assets, let them!</p>
-
-<p><strong><a href="http://rubygems.org/gems/paperclip">Paperclip</a></strong>: Paperclip makes adding files to models relatively simple. You can configure image files for post-processing with Imagemagick. And out of the box Paperclip supports local file, S3, and fog storage with Azure and Dropbox available as add-on gems.</p>
-
-<p><em>(alternative)</em> <strong><a href="https://rubygems.org/gems/carrierwave">CarrierWave</a></strong>: I have not used CarrierWave yet since Paperclip gets the job done. I&#8217;ve heard some say they prefer it over Paperclip so it&#8217;s worth checking out if Paperclip doesn&#8217;t float your boat.</p>
-
-<h2>Payment Processing</h2>
-
-<p>What&#8217;s the point in having customers if you can&#8217;t bill them?</p>
-
-<p><strong><a href="http://rubygems.org/gems/stripe">Stripe</a></strong>: <a href="https://stripe.com/">Stripe</a> refers to itself as themselves as &#8220;Payments for developers&#8221; and so it&#8217;s fitting that they have an excellent api and robust tools to make it easy to integrate. You can also allow your customers to take payments through your site, although they need to have a Stripe account as well.</p>
-
-<p><em>(alternative)</em> <strong><a href="http://rubygems.org/gems/activemerchant">Active Merchant</a></strong>: If you want to support multiple payment processors Active Merchant is the way to go. It provides an abstraction layer that supports a ridiculous amount of <a href="https://github.com/Shopify/active_merchant/wiki/gatewayfeaturematrix">gateways</a>. Active Merchant was a direct extraction from <a href="http://www.shopify.com">Shopify</a> so it&#8217;s been &#8216;battle-tested&#8217;.</p>
-
-<h2>Frontend</h2>
-
-<p>These make life easier for developers writing the view layer, and for users submitting text content.</p>
-
-<p><strong><a href="http://rubygems.org/gems/haml">Haml</a></strong>: <a href="http://haml.info">Haml</a> is an alternative syntax for html that, in my opinion, is WAY better to work with than plain HTML. Unlike HTML it&#8217;s whitespace sensitive and does not require closing tags. This does a good job of enforcing proper formatting habits and removes the mental overhead of closing tags in your more heavily nested pieces of layout.</p>
-
-<p>I&#8217;ve interacted with some that absolutely hate Haml so it&#8217;s certainly a  personal preference, but I would suggest you give it a chance.</p>
-
-<p><strong><a href="http://rubygems.org/gems/github-markdown">github-markdown</a></strong>: Markdown is a lightweight syntax that makes writing and formatting text easy. Github&#8217;s variant adds a few changes to traditional <a href="http://daringfireball.net/projects/markdown">Markdown</a> syntax and, since they use it extensively on Github.com, it should be well supported for the foreseeable future.</p>
-
-<h2>SEO</h2>
-
-<p>The grey area of the web&#8230;</p>
-
-<p><strong><a href="http://rubygems.org/gems/friendly_id">Friendly Id</a></strong>: Rails surprisingly does not come out of the box with SEO friendly urls. Friendly Id fixes this by giving human-friendly strings to your data objects. You can choose one of the existing attributes in your model or pass in a generated slug. This is super handy if you want to have public, but obfuscated, urls.</p>
-
-<h3>What are your picks?</h3>
-
-<p>This is far from an exhaustive list, but it covers the gems I use most frequently. Now it&#8217;s your turn, <a href="http://www.twitter.com/gpxl">let me know</a> what gems you use to bootstrap your MVPs.</p>
+<p>In building my own product, a <a href="http://www.allthetags.com">tag management service</a> for online marketers, I have learned a lot by simply observing the path others have chosen. While I don&#8217;t agree with Refer.ly&#8217;s current course I appreciate how transparent they have been in sharing their experiences and hope it encourages more start ups to follow.</p>
 
     <div class="row-fluid well">
   <div class="span6 offset3">
@@ -328,10 +294,8 @@
   <footer>
     <p class="meta">
       
-        <a class="basic-alignment left" href="/2013/02/27/lesson-learned-one-month-into-the-5-dollars-web-app-challenge/" title="Previous Post: Lesson Learned: One Month into the $5 Web App Challenge">&laquo; Lesson Learned: One Month into the $5 Web App Challenge</a>
+        <a class="basic-alignment left" href="/2013/03/07/gems-to-use-when-crafting-a-rails-mvp/" title="Previous Post: Gems to use when crafting a Rails MVP">&laquo; Gems to use when crafting a Rails MVP</a>
       
-      
-        <a class="basic-alignment right" href="/2013/03/13/did-refer-dot-ly-pivot-out-of-zombie-startup-status/" title="Next Post: Did Refer.ly pivot out of Zombie Startup status?">Did Refer.ly pivot out of Zombie Startup status? &raquo;</a>
       
     </p>
   </footer>

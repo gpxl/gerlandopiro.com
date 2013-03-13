@@ -4,7 +4,7 @@
   <title><![CDATA[Gerlando Piro]]></title>
   <link href="http://www.gerlandopiro.com/atom.xml" rel="self"/>
   <link href="http://www.gerlandopiro.com/"/>
-  <updated>2013-03-08T10:05:28-08:00</updated>
+  <updated>2013-03-13T09:13:30-07:00</updated>
   <id>http://www.gerlandopiro.com/</id>
   <author>
     <name><![CDATA[Gerlando Piro]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Did Refer.ly pivot out of Zombie Startup status?]]></title>
+    <link href="http://www.gerlandopiro.com/2013/03/13/did-refer-dot-ly-pivot-out-of-zombie-startup-status/"/>
+    <updated>2013-03-13T09:07:00-07:00</updated>
+    <id>http://www.gerlandopiro.com/2013/03/13/did-refer-dot-ly-pivot-out-of-zombie-startup-status</id>
+    <content type="html"><![CDATA[<p>Danielle Morrill recently <a href="http://www.daniellemorrill.com/2013/03/zombie-startups">wrote about zombie startups</a> in reference to  Referly&#8217;s <a href="https://refer.ly/please-read-referly-discontinuing-rewards-paying-existing-links-through-march-31st/c/67f9d3fa890311e2bfbf22000a1db8fa#comments-container">pivot</a> from an affiliate link enabler to a blogging platform.</p>
+
+<p>Refer.ly launched in June 2012 as a Y Combinator backed startup that made it easy for anyone to create and share affiliate links. It&#8217;s a novel idea but parallels can be drawn to Gumroad in that the main business model is an add-on service with extremely small margins. As I wrote in my <a href="http://www.gerlandopiro.com/2013/02/06/do-we-need-yet-another-stripe-checkout-app">analysis of Gumroad and other Stripe payment apps</a>, making a decent revenue stream, in this case one that can pay staff <em>and</em> satisfy investors, is extremely difficult unless you attain moonshot levels of growth.</p>
+
+<p>In the Danielle&#8217; zombie post she illustrates the point, although not directly. Refer.ly&#8217;s <a href="http://farm9.staticflickr.com/8527/8545783275_14ae3b7e75_o.png">visitor growth</a> has been robust, but revenue was not. Clearly a change needed to be made to align their business with where they were gaining traction, unfortunately I think they&#8217;ve put themselves into a weak position but pivoting into yet another blogging platform. They&#8217;re entering a crowded market littered with high profile casualties such as <a href="https://blog.posterous.com/thanks-from-posterous">Posterous</a>, they still have no clear revenue model, and their new tagline, &#8220;A new kind of magazine for thoughtful shoppers.&#8221;, could only be more nondescript with significant effort.</p>
+
+<p>When a startup pivots from a questionable revenue model to one reliant on page views and a sales you have to wonder how long until they pivot again or sell themselves as an aquihire.</p>
+
+<p>One wonders if Refer.ly could have been successful if they had not taken the VC funded, quick growth approach. Fatwallet and RetailMeNot were both bootstrapped and generate revenue from affiliate fees. Without the pressures of VC money to grow fast or die, both grew organically and eventually sold for large sums of money.</p>
+
+<p>In building my own product, a <a href="http://www.allthetags.com">tag management service</a> for online marketers, I have learned a lot by simply observing the path others have chosen. While I don&#8217;t agree with Refer.ly&#8217;s current course I appreciate how transparent they have been in sharing their experiences and hope it encourages more start ups to follow.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Gems to use when crafting a Rails MVP]]></title>
