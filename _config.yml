@@ -100,7 +100,7 @@ google_analytics_tracking_id:
 facebook_like: false
 #
 ## -- AWS Deploy config -- #
-access_key_id: ""
-secret_access_key: ""
+access_key_id: "AKIAIPVW5WPX2RFFHS4Q"
+secret_access_key: "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"
 bucket: "www.gerlandopiro.com"
 acl: "public_read"
