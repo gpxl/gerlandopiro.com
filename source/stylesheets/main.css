@@ -76,9 +76,12 @@ ul.unstyled li:last-of-type {
   font-size: 1.5em;
   line-height: 1em;
   margin-right: 2px;
+  text-align: right;
+}
+
+.header h1, .header h1 a, .header h1 a:hover, .header p a {
   text-decoration: none;
   color: #fff;
-  text-align: right;
 }
 
 .header small {
