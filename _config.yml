@@ -3,12 +3,12 @@
 # ----------------------- #
 
 url: http://www.gerlandopiro.com
-title: Gerlando Piro
+title: "Gerlando Piro"
 subtitle: 
 author: Gerlando Piro
 email: me@gerlandopiro.com
 simple_search: http://google.com/search
-description: Hi Friend!
+description: 'Hi<br />Friend!'
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
