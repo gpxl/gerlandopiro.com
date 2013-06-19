@@ -18,4 +18,4 @@ Another mental hangup I've discovered is the thought that a post has to meet a m
 
 Another takeaway from MisfitConf via [Joshua Fields Millburn](http://www.twitter.com/jfm) was simply "sit in the chair" and get through the drudgery. What sounds simple is not so! At least for me :)
 
-So this post is a stake in the ground. I renewed commitment to sit in the chair and get through the drudgery. To ensure one day I can look back at what I've done rather than think of what I should have done.
+So this post is a stake in the ground; A renewed commitment to sit in the chair and get through the drudgery. To ensure one day I can look back at what I've done rather than think of what I should have done.
