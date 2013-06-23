@@ -134,9 +134,16 @@ ul.unstyled li:last-of-type {
 }
 
 h1.entry-title {
-  font-size: 38px;
+  font-size: 2.5em;
   line-height: 1.2em;
   font-weight: 600;
+}
+
+h2.entry-title {
+  font-size: 2.0em;
+  line-height: 1.2em;
+  font-weight: 600;
+  margin: 0;
 }
 
 h1.entry-title a {
@@ -144,12 +151,12 @@ h1.entry-title a {
 }
 
 .entry-content {
-  font-size: 16px;
+  font-size: 1.3em;
   line-height: 1.8em;
 }
 
 article {
-  margin: 2em 0 4em 0;
+  margin: 3em 0 0 0;
 }
 
 .sharing {
