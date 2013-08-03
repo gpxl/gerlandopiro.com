@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Misfit 2014"
-excerpt: 
+excerpt: "The best conf ever drops a letter and gets a sequel"
 date: 2013-08-03 06:16
 published: true
 external-url:
