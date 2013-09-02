@@ -6,6 +6,7 @@ date: 2013-02-04 08:51
 published: true
 comments: false
 external-url:
+categories: Tech
 ---
 As I alluded to in my [$5 Web App Challenge](/2013/01/27/starting-the-5-dollars-web-app-challenge) post, I have not been an active writer in the past. In years past, I've tried nearmly every blogging platform available; from hosted platforms like Blogger and Tumblr, to self hosted apps like Drupal and WordPress. Nothing seemed to click and I'd find myself [yak shaving](http://en.wiktionary.org/wiki/yak_shaving) instead of writing. Every time I would get frustrated and lose inspiration and motivation. The solution, I found recently, was to embrace constraints and simplify.
 

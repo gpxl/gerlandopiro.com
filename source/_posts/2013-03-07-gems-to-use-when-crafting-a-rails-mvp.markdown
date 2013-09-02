@@ -5,6 +5,7 @@ excerpt: "A handy list of my go-to gems."
 date: 2013-03-07 09:19
 published: true
 external-url:
+categories: Tech
 ---
 
 When creating a new web application there's some basic functionality that you will probably want to add and get out of the way so you can start building out your core business logic. A lot of that functionality can be found pre-baked in the RubyGems ecosystem but the overwhelming number of gems, 52k and counting, makes it hard to know what to use and what's crap. Here's a list of useful gems to get your app bootstrapped so the real work can begin.
