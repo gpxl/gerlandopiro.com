@@ -4,7 +4,7 @@
   <title><![CDATA[Gerlando Piro]]></title>
   <link href="http://www.gerlandopiro.com/atom.xml" rel="self"/>
   <link href="http://www.gerlandopiro.com/"/>
-  <updated>2013-09-01T22:00:37-07:00</updated>
+  <updated>2013-09-16T14:16:13-07:00</updated>
   <id>http://www.gerlandopiro.com/</id>
   <author>
     <name><![CDATA[Gerlando Piro]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Refactoring CSS with Sass]]></title>
+    <link href="http://www.gerlandopiro.com/2013/09/16/refactoring-css-with-sass/"/>
+    <updated>2013-09-16T14:10:00-07:00</updated>
+    <id>http://www.gerlandopiro.com/2013/09/16/refactoring-css-with-sass</id>
+    <content type="html"><![CDATA[<p>&#8220;Sass is an extension of CSS that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized, and get small stylesheets up and running quickly, particularly with the help of the Compass style library.&#8221;</p>
+
+<p>That text taken from the Sass reference page sums up what makes Sass awesome, it allows you to be more efficient with your CSS and removes a lot of the frustration that comes with the sprawling highly duplicated stylesheets that come with any reasonably sized project.</p>
+
+<p>I&#8217;ve been using Sass in my Rails apps for a few years now but I have yet to apply everything Sass has to offer in my own work. That has always been something that bugged me and so I&#8217;m finally going to do something about it.</p>
+
+<p>With a couple of guide books in hand, The <a href="http://pragprog.com/book/pg_sass/pragmatic-guide-to-sass">Pragmatic Guide to Sass</a> by Hampton and Michael Lintorn Catlin and <a href="http://smacss.com">Scalable and Modular Architecture for CSS</a> by Jonathan Snook, I&#8217;m going to dig into Sass to see what techniques are most beneficial in refactoring and maintaining a medium sized site, Engineyard.com.</p>
+
+<p>The current <a href="https://www.engineyard.com/assets/application.css">site CSS</a> weighs in at a hefty 162kb <strong>after</strong> being compiled by the Rails Asset Pipeline and contains <a href="http://colorpalettes.gerlandopiro.com/colormaps/engineyard"><strong>197 unique colors</strong> in <strong>1488 css tags</strong></a>. Clearly there&#8217;s a lot of work to be done, but it&#8217;s going to be a lot of fun as well.</p>
+
+<h3>Follow along by joining my email list below.</h3>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Introducing Color Palettes]]></title>

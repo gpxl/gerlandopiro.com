@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Refactoring CSS with Sass - Gerlando Piro</title>
+  <meta name="author" content="Gerlando Piro">
+
+  
+  <meta name="description" content="Refactoring CSS With Sass Sep 16th, 2013 &#8220;Sass is an extension of CSS that adds power and elegance to the basic language. It allows you to use &hellip;">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.gerlandopiro.com/2013/09/16/refactoring-css-with-sass/">
+  <link href="/favicon.png" rel="icon">
+  <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/main.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Gerlando Piro" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,700' rel='stylesheet' type='text/css'>
+  <script src="/javascripts/ga.js" type="text/javascript"></script>
+  
+</head>
+
+  <body   >
+    <div class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <a class="navbar-brand" href="/">Gerlando Piro</a>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="nav navbar-nav pull-left">
+          <li><a href="http://colorpalettes.gerlandopiro.com">Color Palletes</a></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="http://twitter.com/gpxl">Twitter</a></li>
+          <li><a href="http://github.com/gpxl">Github</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="offset1 span10">
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <article class="hentry" role="article">
+        
+  <header>
+    
+      
+        <h1 class="entry-title"><a href="/2013/09/16/refactoring-css-with-sass/">Refactoring CSS With Sass</a></h1>
+      
+      
+        <p class="meta">
+          
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-16T14:10:00-07:00" pubdate data-updated="true">Sep 16<span>th</span>, 2013</time>
+          
+        </p>
+      
+    
+  </header>
+
+
+  <div class="entry-content">
+    <p>&#8220;Sass is an extension of CSS that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized, and get small stylesheets up and running quickly, particularly with the help of the Compass style library.&#8221;</p>
+
+<p>That text taken from the Sass reference page sums up what makes Sass awesome, it allows you to be more efficient with your CSS and removes a lot of the frustration that comes with the sprawling highly duplicated stylesheets that come with any reasonably sized project.</p>
+
+<p>I&#8217;ve been using Sass in my Rails apps for a few years now but I have yet to apply everything Sass has to offer in my own work. That has always been something that bugged me and so I&#8217;m finally going to do something about it.</p>
+
+<p>With a couple of guide books in hand, The <a href="http://pragprog.com/book/pg_sass/pragmatic-guide-to-sass">Pragmatic Guide to Sass</a> by Hampton and Michael Lintorn Catlin and <a href="http://smacss.com">Scalable and Modular Architecture for CSS</a> by Jonathan Snook, I&#8217;m going to dig into Sass to see what techniques are most beneficial in refactoring and maintaining a medium sized site, Engineyard.com.</p>
+
+<p>The current <a href="https://www.engineyard.com/assets/application.css">site CSS</a> weighs in at a hefty 162kb <strong>after</strong> being compiled by the Rails Asset Pipeline and contains <a href="http://colorpalettes.gerlandopiro.com/colormaps/engineyard"><strong>197 unique colors</strong> in <strong>1488 css tags</strong></a>. Clearly there&#8217;s a lot of work to be done, but it&#8217;s going to be a lot of fun as well.</p>
+
+<h3>Follow along by joining my email list below.</h3>
+
+    <div class="chimp well">
+  <div id="mc_embed_signup">
+    <p>Enter your email address and I will let you know when I've posted something new.</p>
+
+    <!-- Begin MailChimp Signup Form -->
+    <div id="mc_embed_signup">
+    <form action="http://gerlandopiro.us1.list-manage2.com/subscribe/post?u=7d0c17c021dcca63f41dc9699&amp;id=f1a06dc732" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div class="mc-field-group">
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email Address">
+      </div>
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+      <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
+    </form>
+    </div>
+    <script type="text/javascript">
+    var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';
+    try {
+        var jqueryLoaded=jQuery;
+        jqueryLoaded=true;
+    } catch(err) {
+        var jqueryLoaded=false;
+    }
+    var head= document.getElementsByTagName('head')[0];
+    if (!jqueryLoaded) {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
+        head.appendChild(script);
+        if (script.readyState && script.onload!==null){
+            script.onreadystatechange= function () {
+                  if (this.readyState == 'complete') mce_preload_check();
+            }    
+        }
+    }
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'http://downloads.mailchimp.com/js/jquery.form-n-validate.js';
+    head.appendChild(script);
+    var err_style = '';
+    try{
+        err_style = mc_custom_error_style;
+    } catch(e){
+        err_style = '#mc_embed_signup input.mce_inline_error{border-color:#6B0505;} #mc_embed_signup div.mce_inline_error{margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff;}';
+    }
+    var head= document.getElementsByTagName('head')[0];
+    var style= document.createElement('style');
+    style.type= 'text/css';
+    if (style.styleSheet) {
+      style.styleSheet.cssText = err_style;
+    } else {
+      style.appendChild(document.createTextNode(err_style));
+    }
+    head.appendChild(style);
+    setTimeout('mce_preload_check();', 250);
+
+    var mce_preload_checks = 0;
+    function mce_preload_check(){
+        if (mce_preload_checks>40) return;
+        mce_preload_checks++;
+        try {
+            var jqueryLoaded=jQuery;
+        } catch(err) {
+            setTimeout('mce_preload_check();', 250);
+            return;
+        }
+        try {
+            var validatorLoaded=jQuery("#fake-form").validate({});
+        } catch(err) {
+            setTimeout('mce_preload_check();', 250);
+            return;
+        }
+        mce_init_form();
+    }
+    function mce_init_form(){
+        jQuery(document).ready( function($) {
+          var options = { errorClass: 'mce_inline_error', errorElement: 'div', onkeyup: function(){}, onfocusout:function(){}, onblur:function(){}  };
+          var mce_validator = $("#mc-embedded-subscribe-form").validate(options);
+          $("#mc-embedded-subscribe-form").unbind('submit');//remove the validator so we can get into beforeSubmit on the ajaxform, which then calls the validator
+          options = { url: 'http://gerlandopiro.us1.list-manage2.com/subscribe/post-json?u=7d0c17c021dcca63f41dc9699&id=f1a06dc732&c=?', type: 'GET', dataType: 'json', contentType: "application/json; charset=utf-8",
+                        beforeSubmit: function(){
+                            $('#mce_tmp_error_msg').remove();
+                            $('.datefield','#mc_embed_signup').each(
+                                function(){
+                                    var txt = 'filled';
+                                    var fields = new Array();
+                                    var i = 0;
+                                    $(':text', this).each(
+                                        function(){
+                                            fields[i] = this;
+                                            i++;
+                                        });
+                                    $(':hidden', this).each(
+                                        function(){
+                                            var bday = false;
+                                            if (fields.length == 2){
+                                                bday = true;
+                                                fields[2] = {'value':1970};//trick birthdays into having years
+                                            }
+                                          if ( fields[0].value=='MM' && fields[1].value=='DD' && (fields[2].value=='YYYY' || (bday && fields[2].value==1970) ) ){
+                                            this.value = '';
+                          } else if ( fields[0].value=='' && fields[1].value=='' && (fields[2].value=='' || (bday && fields[2].value==1970) ) ){
+                                            this.value = '';
+                          } else {
+                              if (/\[day\]/.test(fields[0].name)){
+                                                  this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;									        
+                              } else {
+                                                  this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
+                                              }
+                                          }
+                                        });
+                                });
+                            return mce_validator.form();
+                        }, 
+                        success: mce_success_cb
+                    };
+          $('#mc-embedded-subscribe-form').ajaxForm(options);
+          
+          
+        });
+    }
+    function mce_success_cb(resp){
+        $('#mce-success-response').hide();
+        $('#mce-error-response').hide();
+        if (resp.result=="success"){
+            $('#mce-'+resp.result+'-response').show();
+            $('#mce-'+resp.result+'-response').html(resp.msg);
+            $('#mc-embedded-subscribe-form').each(function(){
+                this.reset();
+          });
+        } else {
+            var index = -1;
+            var msg;
+            try {
+                var parts = resp.msg.split(' - ',2);
+                if (parts[1]==undefined){
+                    msg = resp.msg;
+                } else {
+                    i = parseInt(parts[0]);
+                    if (i.toString() == parts[0]){
+                        index = parts[0];
+                        msg = parts[1];
+                    } else {
+                        index = -1;
+                        msg = resp.msg;
+                    }
+                }
+            } catch(e){
+                index = -1;
+                msg = resp.msg;
+            }
+            try{
+                if (index== -1){
+                    $('#mce-'+resp.result+'-response').show();
+                    $('#mce-'+resp.result+'-response').html(msg);            
+                } else {
+                    err_id = 'mce_tmp_error_msg';
+                    html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
+                    
+                    var input_id = '#mc_embed_signup';
+                    var f = $(input_id);
+                    if (ftypes[index]=='address'){
+                        input_id = '#mce-'+fnames[index]+'-addr1';
+                        f = $(input_id).parent().parent().get(0);
+                    } else if (ftypes[index]=='date'){
+                        input_id = '#mce-'+fnames[index]+'-month';
+                        f = $(input_id).parent().parent().get(0);
+                    } else {
+                        input_id = '#mce-'+fnames[index];
+                        f = $().parent(input_id).get(0);
+                    }
+                    if (f){
+                        $(f).append(html);
+                        $(input_id).focus();
+                    } else {
+                        $('#mce-'+resp.result+'-response').show();
+                        $('#mce-'+resp.result+'-response').html(msg);
+                    }
+                }
+            } catch(e){
+                $('#mce-'+resp.result+'-response').show();
+                $('#mce-'+resp.result+'-response').html(msg);
+            }
+        }
+    }
+
+    </script>
+    <!--End mc_embed_signup-->
+
+  </div>
+</div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'gerlandopiro'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</noscript>
+
+  </div>
+
+
+        <hr />
+        <h2><a href="/">Back to article index</a></h2>
+      </article>
+      
+      
+      <aside class="sidebar">
+        
+          
+        
+      </aside>
+      
+    </div>
+  </div>
+</div>
+
+    <div class="footer">
+  <div class="container">
+    <p class="smallprint">
+    &copy;2013 Gerlando Piro
+    </p>
+  </div>
+</div>
+
+  </body>
+</html>
