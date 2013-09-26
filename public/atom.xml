@@ -4,7 +4,7 @@
   <title><![CDATA[Gerlando Piro]]></title>
   <link href="http://www.gerlandopiro.com/atom.xml" rel="self"/>
   <link href="http://www.gerlandopiro.com/"/>
-  <updated>2013-09-16T14:16:13-07:00</updated>
+  <updated>2013-09-25T20:36:15-07:00</updated>
   <id>http://www.gerlandopiro.com/</id>
   <author>
     <name><![CDATA[Gerlando Piro]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Quick thoughts on the iPhone 5c]]></title>
+    <link href="http://www.gerlandopiro.com/2013/09/25/quick-thoughts-on-the-iphone-5c/"/>
+    <updated>2013-09-25T20:34:00-07:00</updated>
+    <id>http://www.gerlandopiro.com/2013/09/25/quick-thoughts-on-the-iphone-5c</id>
+    <content type="html"><![CDATA[<p>I finally got some time with the iPhone 5c at the Apple Store the other day and you know what? It&#8217;s an iPhone 5 in a plastic case. It&#8217;s a solid case no doubt, but it&#8217;s lacks the high quality feel of the aluminum or glass bodied iPhones. On the upside, the colors Apple selected for the 5c are vibrant and striking enough to mak the new 5s look a bit uptight. It&#8217;s easy to envision the 5c capturing a large share of those not interested in simply having a stylish phone, and that&#8217;s the point.</p>
+
+<p>The iPhone5c is plenty powerful for a majority of people, it keeps people interested in last year&#8217;s technology, and the cheaper build quality allows larger margins on each one sold. If 5c margins are better than those of the 5s, the introduction of the 5c could the most shrewd moves Apple has made in years. It allows them to increase sales and margins in a large segment of the market, while the 5s keeps their story of innovation in the premium segment of the market intact. Not bad for a bit of metal reinforced polycarbonate.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Refactoring CSS with Sass]]></title>
