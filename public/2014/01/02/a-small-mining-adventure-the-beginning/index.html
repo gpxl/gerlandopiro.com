@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
-  <title>Refactoring CSS with Sass - Gerlando Piro</title>
+  <title>A small mining adventure: The beginning - Gerlando Piro</title>
   <meta name="author" content="Gerlando Piro">
 
   
-  <meta name="description" content="Refactoring CSS With Sass Sep 16th, 2013 &#8220;Sass is an extension of CSS that adds power and elegance to the basic language. It allows you to use &hellip;">
+  <meta name="description" content="A Small Mining Adventure: The Beginning Jan 2nd, 2014 I&#8217;ve been intrigued by the buzz surrounding Bitcoin since it spiked in value in early &hellip;">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.gerlandopiro.com/2013/09/16/refactoring-css-with-sass/">
+  <link rel="canonical" href="http://www.gerlandopiro.com/2014/01/02/a-small-mining-adventure-the-beginning/">
   <link href="/favicon.png" rel="icon">
   <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
   <link href="/stylesheets/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
@@ -63,7 +63,7 @@
   <header>
     
       
-        <h1 class="entry-title"><a href="/2013/09/16/refactoring-css-with-sass/">Refactoring CSS With Sass</a></h1>
+        <h1 class="entry-title"><a href="/2014/01/02/a-small-mining-adventure-the-beginning/">A Small Mining Adventure: The Beginning</a></h1>
       
       
         <p class="meta">
@@ -79,7 +79,7 @@
   
 
 
-<time datetime="2013-09-16T14:10:00-07:00" pubdate data-updated="true">Sep 16<span>th</span>, 2013</time>
+<time datetime="2014-01-02T21:30:00-08:00" pubdate data-updated="true">Jan 2<span>nd</span>, 2014</time>
           
         </p>
       
@@ -88,17 +88,40 @@
 
 
   <div class="entry-content">
-    <p>&#8220;Sass is an extension of CSS that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized, and get small stylesheets up and running quickly, particularly with the help of the Compass style library.&#8221;</p>
+    <p>I&#8217;ve been intrigued by the buzz surrounding Bitcoin since it spiked in value in early 2013 due to the near collapse of the Cyprus economy. A subsequent larger spike caused by increased interest in China finally caused me to go forward with building out a Litecoin mining rig and trying my luck as a small time miner.</p>
 
-<p>That text taken from the Sass reference page sums up what makes Sass awesome, it allows you to be more efficient with your CSS and removes a lot of the frustration that comes with the sprawling highly duplicated stylesheets that come with any reasonably sized project.</p>
+<p>The decision to mine Litecoin rather than Bitcoin was based simply out of accessibility. Bitcoin mining is extremely competitive and expensive nowadays. It also relies on specialized hardware often times from unreliable sources. Litecoin can still be mined effectively on standard computing hardware and exchanges such as <a href="https://www.cryptsy.com">Cryptsy</a> allow one to exchange Litecoin for Bitcoin.</p>
 
-<p>I&#8217;ve been using Sass in my Rails apps for a few years now but I have yet to apply everything Sass has to offer in my own work. That has always been something that bugged me and so I&#8217;m finally going to do something about it.</p>
+<p>I set out my plan with two main goals. Satisfying my curiosity around mining and breaking even financially.</p>
 
-<p>With a couple of guide books in hand, The <a href="http://pragprog.com/book/pg_sass/pragmatic-guide-to-sass">Pragmatic Guide to Sass</a> by Hampton and Michael Lintorn Catlin and <a href="http://smacss.com">Scalable and Modular Architecture for CSS</a> by Jonathan Snook, I&#8217;m going to dig into Sass to see what techniques are most beneficial in refactoring and maintaining a medium sized site, Engineyard.com.</p>
+<p>With the help of <a href="http://www.coinminingrigs.com">CoinMiningRigs.com</a>, <a href="http://www.cryptobadger.com/build-your-own-litecoin-mining-rig">CryptoBadger</a>, and the advice of a coworker I pieced together the following components to build a computer for the first time since high school.</p>
 
-<p>The current <a href="https://www.engineyard.com/assets/application.css">site CSS</a> weighs in at a hefty 162kb <strong>after</strong> being compiled by the Rails Asset Pipeline and contains <a href="http://colorpalettes.gerlandopiro.com/colormaps/engineyard"><strong>197 unique colors</strong> in <strong>1488 css tags</strong></a>. Clearly there&#8217;s a lot of work to be done, but it&#8217;s going to be a lot of fun as well.</p>
+<p>Here&#8217;s what I ordered.</p>
 
-<h3>Follow along by joining my email list below.</h3>
+<ul>
+<li>GPUS - (2) MSI R7950 Twin Frozr</li>
+<li>Power Supply - Cooler Master Silent Pro Gold - 1200W</li>
+<li>RAM - G.SKILL Ripjaws X Series 4GB 240-Pin DDR3 SDRAM</li>
+<li>Motherboard - ASRock 990FX Extreme3 AM3+</li>
+<li>CPU - AMD Sempron 145 Sargas 2.8GHz Socket AM3 45W Single-Core Desktop Processor</li>
+<li>Hard Drive - SanDisk ReadyCache 32 GB SSD</li>
+<li>&#8220;Case&#8221; - White Plastic Storage Crate</li>
+</ul>
+
+
+<p>Scoping out components is an interesting challenge starting with simply finding a place that had the parts required! I just happened on a couple of 7950 GPUs which are highly regarded for their hash rate/power ratio. I should be able to get 1200kH/s at 600W.</p>
+
+<p>The motherboard and power supply were both chosen with expansion in mind. Once the rig is up and running I should be able to add two more GPUs for a total of 2400kH/s.</p>
+
+<p>The CPU, memory, storage, and case were all chosen to be inexpensive as they have little affect on hash rate.</p>
+
+<p>The total cost for this build was $1260 and, at the time of purchase was expected to break even in about 4 months. I can lower the break even point to 3 months, and double my hash rate, if I invest another $800 to add 2 GPUs to the rig. Apparently you really do need to spend money to earn money.</p>
+
+<p>Getting the rig up and running was a lot more difficult than I expected. Through a few frustrating days of trial and error I figured out one of the GPUs I received was bad and needed to be set for repair. This unexpected set back would cut my hash rate in half and push my time to break even out to nine months!</p>
+
+<p>So I did what any rational gambler would do and I bought a 3rd GPU so I&#8217;d have at least two running full time while the third was sent away for repairs.</p>
+
+<p>Thankfully the additional GPU plugged in and powered up without incident and I&#8217;ve been happily mining for about a week an a half. Simply getting the rig sourced, built, and running took longer than expected but once I started mining I discovered Litecoin wasn&#8217;t the most profitable coin to mine. Lesson one was complete, but the education was just starting.</p>
 
     <div class="chimp well">
   <div id="mc_embed_signup">
