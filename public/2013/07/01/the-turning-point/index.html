@@ -38,6 +38,7 @@
     <div class="row">
       <div class="col-md-12">
         <ul class="nav navbar-nav pull-left">
+          <li><a href="cryptocurrencies">Cryptocoin Mining</a></li>
           <li><a href="http://colorpalettes.gerlandopiro.com">Color Palletes</a></li>
         </ul>
         <ul class="nav navbar-nav pull-right">
@@ -124,9 +125,11 @@
 
 <p>Life’s an interesting set of twists and turns. You start off naked and crying, and sometimes you stay that way for a while. Sometimes a stranger becomes a friend and helps you in ways that are unimaginable. And with a bit of luck, you get a chance to fix the past.</p>
 
-    <div class="chimp well">
+    <hr />
+<p>Please consider tipping some BTC if you found this article worth reading. 1HmwU6GdvTpzxtYQKkdk3a6MNxXmV7jXfF
+<div class="chimp well">
   <div id="mc_embed_signup">
-    <p>Enter your email address and I will let you know when I've posted something new.</p>
+    <p>Subscribe if you'd like to know when I post something new.</p>
 
     <!-- Begin MailChimp Signup Form -->
     <div id="mc_embed_signup">
@@ -158,7 +161,7 @@
         if (script.readyState && script.onload!==null){
             script.onreadystatechange= function () {
                   if (this.readyState == 'complete') mce_preload_check();
-            }    
+            }
         }
     }
     var script = document.createElement('script');
@@ -231,7 +234,7 @@
                                             this.value = '';
                           } else {
                               if (/\[day\]/.test(fields[0].name)){
-                                                  this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;									        
+                                                  this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;
                               } else {
                                                   this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
                                               }
@@ -239,12 +242,12 @@
                                         });
                                 });
                             return mce_validator.form();
-                        }, 
+                        },
                         success: mce_success_cb
                     };
           $('#mc-embedded-subscribe-form').ajaxForm(options);
-          
-          
+
+
         });
     }
     function mce_success_cb(resp){
@@ -280,11 +283,11 @@
             try{
                 if (index== -1){
                     $('#mce-'+resp.result+'-response').show();
-                    $('#mce-'+resp.result+'-response').html(msg);            
+                    $('#mce-'+resp.result+'-response').html(msg);
                 } else {
                     err_id = 'mce_tmp_error_msg';
                     html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
-                    
+
                     var input_id = '#mc_embed_signup';
                     var f = $(input_id);
                     if (ftypes[index]=='address'){

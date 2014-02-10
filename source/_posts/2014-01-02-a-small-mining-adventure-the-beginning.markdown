@@ -5,6 +5,7 @@ excerpt: Money for nothing
 date: 2014-01-02 21:30
 published: true
 external-url:
+categories: crypto
 ---
 I've been intrigued by the buzz surrounding Bitcoin since it spiked in value in early 2013 due to the near collapse of the Cyprus economy. A subsequent larger spike caused by increased interest in China finally caused me to go forward with building out a Litecoin mining rig and trying my luck as a small time miner.
 

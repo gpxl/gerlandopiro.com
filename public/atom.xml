@@ -4,7 +4,7 @@
   <title><![CDATA[Gerlando Piro]]></title>
   <link href="http://www.gerlandopiro.com/atom.xml" rel="self"/>
   <link href="http://www.gerlandopiro.com/"/>
-  <updated>2014-01-02T21:35:25-08:00</updated>
+  <updated>2014-02-09T18:26:24-08:00</updated>
   <id>http://www.gerlandopiro.com/</id>
   <author>
     <name><![CDATA[Gerlando Piro]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Calculating Cryptocurrency Mining ROI and Profitability]]></title>
+    <link href="http://www.gerlandopiro.com/2014/02/09/calculating-cryptocurrency-mining-roi-and-profitability/"/>
+    <updated>2014-02-09T21:30:00-08:00</updated>
+    <id>http://www.gerlandopiro.com/2014/02/09/calculating-cryptocurrency-mining-roi-and-profitability</id>
+    <content type="html"><![CDATA[<p>I have a simple way of calculating the time to ROI and profitability on my mining rigs. The formula is as follows.</p>
+
+<ol>
+<li><p><a href="http://bitcoinity.org/markets">Look up the current value of a Bitcoin</a>.</p></li>
+<li><p>Visit a auto-switching mining pool, my current favorite is <a href="http://www.middlecoin.com">Middlecoin</a>, and get the current BTC/Mhs/day rate.</p></li>
+<li><p>Calculate the cost to build a rig that achieves about 1 Mhs/day. A good starting point is 3 r9 270xs, 2 r9 280xs, or 2 r9 290s. A full list of cards and hash rates can be found <a href="https://litecoin.info/Mining_hardware_comparison">here</a>. Then, start pricing parts. <a href="http://www.newegg.com">NewEgg</a> is a good place to start. You&#8217;ll need a motherboard, cpu, ram, power supply, usb drive, and one or more video cards.</p></li>
+<li><p>Now simply calculate ($Bitcoin_Value<em>$Bitcoin_per_Mhs) to get your estimated daily payout and $Rig_cost/($Bitcoin_value</em>$Bitcoin_per_Mhs) to get your days till break even on your rig cost.</p></li>
+</ol>
+
+
+<p>This is a simple estimation which does not take into account volatility in Bitcoin value or an increase in mining difficulty, but I believe adding a projection of either is adding speculation upon speculation. The crypto currency market is not for the faint of heart, but at least this should give you a baseline expectation with which to plan and track your progress.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Cryptocurrency Mining Update: January 2014]]></title>
+    <link href="http://www.gerlandopiro.com/2014/02/02/crypto-currency-mining-update-january-2014/"/>
+    <updated>2014-02-02T21:30:00-08:00</updated>
+    <id>http://www.gerlandopiro.com/2014/02/02/crypto-currency-mining-update-january-2014</id>
+    <content type="html"><![CDATA[<p>It&#8217;s been a bit over a month since I started an experiment in mining Cryptocurrencies. One of the big questions I had going into it was wether or not mining could actually be profitable. In the time that I have been mining, daily payouts have been about 0.012 BTC/Mhs/day. That works out to about $10/day. In my <a href="http://www.gerlandopiro.com/2014/01/02/a-small-mining-adventure-the-beginning">previous post</a> I mentioned a 1.2Mh/s rig cost $1260 to put together so, at the current average rate, my projection of a 4 month payback schedule was accurate.</p>
+
+<p>Below is a chart of daily earnings since the beginning of the experiment.</p>
+
+<p><img src="http://www.gerlandopiro.com/images/january-update.png" alt="January Mining Chart" /></p>
+
+<p>You&#8217;ll notice a pretty good rate of growth. That&#8217;s because I not only finished the build of my first rig, I decided to add a second rig and effectively double my hash rate. There was an additional spike in the last few days due to growth in Dogecoin which increased payouts to 0.017 BTC/Mh/day. I don&#8217;t expect this to last long term, but it&#8217;s interesting because it&#8217;s a common assumption that profitability should fall over time due to increased difficulty. At least over the short term, this is clearly not correct.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A small mining adventure: The beginning]]></title>

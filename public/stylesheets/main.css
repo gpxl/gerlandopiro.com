@@ -15,6 +15,7 @@
 }
 .navbar-nav li {
   border-top: 3px solid #d9edf7;
+  margin-right: 3px;
 }
 
 .chimp {

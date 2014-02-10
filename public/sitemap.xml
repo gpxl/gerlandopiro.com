@@ -80,7 +80,19 @@
     </url>
     <url>
         <loc>http://www.gerlandopiro.com/2014/01/02/a-small-mining-adventure-the-beginning/</loc>
-        <lastmod>2014-01-02T21:35:24-08:00</lastmod>
+        <lastmod>2014-02-09T17:54:33-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://www.gerlandopiro.com/2014/02/02/crypto-currency-mining-update-january-2014/
+        </loc>
+        <lastmod>2014-02-09T17:54:28-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://www.gerlandopiro.com/2014/02/09/calculating-cryptocurrency-mining-roi-and-profitability/
+        </loc>
+        <lastmod>2014-02-09T17:54:23-08:00</lastmod>
     </url>
     <url>
         <loc>http://www.gerlandopiro.com/about/</loc>
@@ -88,7 +100,7 @@
     </url>
     <url>
         <loc>http://www.gerlandopiro.com/blog/archives/</loc>
-        <lastmod>2014-01-02T21:35:24-08:00</lastmod>
+        <lastmod>2014-02-09T17:54:33-08:00</lastmod>
     </url>
     <url>
         <loc>http://www.gerlandopiro.com/colophon/</loc>
@@ -99,7 +111,11 @@
         <lastmod>2013-09-01T10:20:38-07:00</lastmod>
     </url>
     <url>
+        <loc>http://www.gerlandopiro.com/cryptocurrencies/</loc>
+        <lastmod>2014-02-09T18:00:52-08:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.gerlandopiro.com/</loc>
-        <lastmod>2014-01-02T21:35:24-08:00</lastmod>
+        <lastmod>2014-02-09T17:54:33-08:00</lastmod>
     </url>
 </urlset>
