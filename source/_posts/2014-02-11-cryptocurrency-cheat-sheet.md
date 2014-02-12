@@ -13,9 +13,9 @@ Curious about Cryptocurrencies but not sure where to start? Here's a quick cheat
 
 ### The Cryptocurrency Market
 
-[Coinbase](https://coinbase.com/?r=5297831b5446868b09000036) is a BTC exchange located in San Francisco. They are one of the most well funded Bitcoin companies in the world and provide a high [level of security](https://coinbase.com/security) around their services.
+[Coinbase](https://www.coinbase.com/?r=5297831b5446868b09000036) is a Bitcoin exchange located in San Francisco. They are one of the most well funded Bitcoin companies in the world and provide a high [level of security](https://coinbase.com/security) around their services.
 
-[Cryptsy](https://www.cryptsy.com/users/register?refid=105115) is a cryptocurrency exchange serving a huge number of coins. Cryptsy provides a crucial link in turning smaller alt-coins into fiat currency. 
+[Cryptsy](https://www.cryptsy.com/users/register?refid=105115) is a cryptocurrency exchange serving a huge number of coins. Cryptsy provides a crucial link in facilitating the conversion of alt-coins into Bitcoin.
 
 [Coinwarz](http://www.coinwarz.com/cryptocurrency) lists the profitability of various cryptocurrencies. The calculations are done in real-time and are prone to wild swings so it's not the most reliable data, but it can serve as a good overview of the cryptocurrency market. 
 
