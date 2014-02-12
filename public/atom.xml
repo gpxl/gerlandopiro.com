@@ -4,7 +4,7 @@
   <title><![CDATA[Gerlando Piro]]></title>
   <link href="http://www.gerlandopiro.com/atom.xml" rel="self"/>
   <link href="http://www.gerlandopiro.com/"/>
-  <updated>2014-02-09T18:26:24-08:00</updated>
+  <updated>2014-02-11T22:07:52-08:00</updated>
   <id>http://www.gerlandopiro.com/</id>
   <author>
     <name><![CDATA[Gerlando Piro]]></name>
@@ -12,6 +12,37 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cryptocurrency Cheat Sheet]]></title>
+    <link href="http://www.gerlandopiro.com/2014/02/11/cryptocurrency-cheat-sheet/"/>
+    <updated>2014-02-11T21:30:00-08:00</updated>
+    <id>http://www.gerlandopiro.com/2014/02/11/cryptocurrency-cheat-sheet</id>
+    <content type="html"><![CDATA[<p>Curious about Cryptocurrencies but not sure where to start? Here&#8217;s a quick cheat sheet of resources to get you started.</p>
+
+<h3>The Cryptocurrency Market</h3>
+
+<p><a href="https://coinbase.com/?r=5297831b5446868b09000036">Coinbase</a> is a BTC exchange located in San Francisco. They are one of the most well funded Bitcoin companies in the world and provide a high <a href="https://coinbase.com/security">level of security</a> around their services.</p>
+
+<p><a href="https://www.cryptsy.com/users/register?refid=105115">Cryptsy</a> is a cryptocurrency exchange serving a huge number of coins. Cryptsy provides a crucial link in turning smaller alt-coins into fiat currency.</p>
+
+<p><a href="http://www.coinwarz.com/cryptocurrency">Coinwarz</a> lists the profitability of various cryptocurrencies. The calculations are done in real-time and are prone to wild swings so it&#8217;s not the most reliable data, but it can serve as a good overview of the cryptocurrency market.</p>
+
+<p><a href="http://bitcoinity.org/markets">Bitcoinity</a> provides simple Bitcoin value charts for various exchanges. This site displays the current Bitcoin value in your browser tab so it remains useful even when not in focus.</p>
+
+<p><a href="http://bitinfocharts.com">Bitinfocharts</a> shows detailed information on the largest cryptocurrency markets. It&#8217;s amazing to see how much larger Bitcoin is relative to everything else. The parabolic difficulty curve is even more impressive ;)</p>
+
+<h3>Cryptocurrency Mining</h3>
+
+<p><a href="https://litecoin.info/Mining_hardware_comparison">GPU Mining Hardware Comparison</a>: This is a reference list of results with various GPU and CPU hardware along with the config settings. You&#8217;ll want a card with a high hash rate (kH/s) to power (W) ratio. The card with the best ratio available, the AMD 7950, is discontinued and close to impossible to find at a good price. The r9 280x and r9 290 are good alternatives that are much easier to find.</p>
+
+<p><a href="http://www.cryptobadger.com/build-your-own-litecoin-mining-rig">Guide to Building Your Own Litecoin Mining Rig</a>: This guide was the template from which I built my rig. The specific set of parts he lists is nearly impossible to find, but this will give you an idea of what to look for.</p>
+
+<p><a href="https://bitcointalk.org/index.php?topic=28402.0">Mining Software: CGMiner 3.7.2</a>: This is the reference thread for CGMiner, the software that will run your miner.</p>
+
+<p><a href="http://middlecoin2.s3-website-us-west-2.amazonaws.com">MiddleCoin Mining Pool</a>: This is my go to pool. Middlecoin is an auto-switching pool that seeks the most profitable alt coins to maximize the return on your hashing power. It also auto-exchanges mined coins and pays out in Bitcoin (BTC). Better still, joining the pool is as simple as pointing your miner at it using a Bitcoin wallet address.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Calculating Cryptocurrency Mining ROI and Profitability]]></title>
@@ -490,38 +521,6 @@ The site reads in a website&#8217;s stylesheets and presents the colors grouped 
 <h3>Wrapping Up</h3>
 
 <p>My writing efforts are still in the nascent stage, but I&#8217;m confident I have finally have a set of tools that match my preferred way of working. Embracing constraints and using a few simple tools has allowed me to focus on the task of writing and to publish on a reliable, robust web host for pennies a month.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Starting the $5 Web App Challenge]]></title>
-    <link href="http://www.gerlandopiro.com/2013/01/27/starting-the-5-dollars-web-app-challenge/"/>
-    <updated>2013-01-27T13:26:00-08:00</updated>
-    <id>http://www.gerlandopiro.com/2013/01/27/starting-the-5-dollars-web-app-challenge</id>
-    <content type="html"><![CDATA[<p><strong>That&#8217;s not a typo in the title. I&#8217;m seriously challenging myself to pull in $5 in profit this year. Keep reading to hear why I consider this far from a trivial goal.</strong></p>
-
-<p>I&#8217;ve been working as a web developer at various startups since the late 90s, and for many years I&#8217;ve dreamt of creating and selling a product of my own. I consider my design and dev skills to be decent but to date I have failed to launch anything of substance to call my own.</p>
-
-<p>The cause is certainly not from a lack of good role models. I&#8217;ve been lucky enough to work beside some wonderfully smart and ambitious people that have gone on to do, and continue to do, great things. I&#8217;ve followed the rise of people such as <a href="http://unicornfree.com">Amy Hoy</a> since her Rails cheat sheet days, and more recently <a href="http://nathanbarry.com">Nathan Barry</a> with his Designing Web Applications book.</p>
-
-<p>The new year brought upon a good deal of introspection as I read through a couple of books on the Lean Startup Methodology and behavioral marketing. I came to realize that I&#8217;ve been focused on the wrong things when it comes to building products and I let fear of ridicule hold me back from sharing my thoughts and experiences.</p>
-
-<p>A couple of timely posts about <a href="http://lesseverything.com/blog/archives/2013/01/24/fear-just-refocuses-itself-1">fear</a> and <a href="https://news.ycombinator.com/item?id=5119213">regret</a> have solidified my resolve to finally take action and launch something.</p>
-
-<p>So taking a page from Nathan&#8217;s <a href="http://nathanbarry.com/starting-web-app-challenge">$5k Web App Challenge</a>, I&#8217;ve come up with a challenge that I like to call the $5 Web App Challenge. The goal of which is to create a product or service that generates $5 in profit by the end of the year.</p>
-
-<p>It may sound like ridiculously low bar to set, but it will require me to complete three goals that have so far eluded me:</p>
-
-<ul>
-<li>Identifying a target customer</li>
-<li>Building an audience</li>
-<li>Creating something people are willing to pay for</li>
-</ul>
-
-
-<p>I will be leaning (no pun intended) on the process outlined in Ash Maurya&#8217;s <a href="http://runninglean.co">Running Lean</a> as a starting point and intend to adjust accordingly as I figure out what does and does not work for me.</p>
-
-<p>Additionally, I committing to writing about the experience along the way in the hopes that someone finds it useful and to improve my quality and confidence in public communication. If you&#8217;ve read this far down the page please use the links below to get in touch or to follow my progress.</p>
 ]]></content>
   </entry>
   
