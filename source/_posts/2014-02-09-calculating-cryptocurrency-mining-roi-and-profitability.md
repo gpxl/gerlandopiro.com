@@ -15,6 +15,6 @@ I have a simple way of calculating the time to ROI and profitability on my minin
 
 3. Calculate the cost to build a rig that achieves about 1 Mhs/day. A good starting point is 3 r9 270xs, 2 r9 280xs, or 2 r9 290s. A full list of cards and hash rates can be found [here](https://litecoin.info/Mining_hardware_comparison). Then, start pricing parts. [NewEgg](http://www.newegg.com) is a good place to start. You'll need a motherboard, cpu, ram, power supply, usb drive, and one or more video cards. 
 
-4. Now simply calculate ($Bitcoin_Value*$Bitcoin_per_Mhs) to get your estimated daily payout and $Rig_cost/($Bitcoin_value*$Bitcoin_per_Mhs) to get your days till break even on your rig cost.
+4. Now simply calculate ($Bitcoin_Value x $Bitcoin_per_Mhs) to get your estimated daily payout and $Rig_cost / ($Bitcoin_value x $Bitcoin_per_Mhs) to get your days till break even on your rig cost.
 
 This is a simple estimation which does not take into account volatility in Bitcoin value or an increase in mining difficulty, but I believe adding a projection of either is adding speculation upon speculation. The crypto currency market is not for the faint of heart, but at least this should give you a baseline expectation with which to plan and track your progress.

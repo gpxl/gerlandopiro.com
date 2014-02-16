@@ -4,7 +4,7 @@
   <title><![CDATA[Gerlando Piro]]></title>
   <link href="http://www.gerlandopiro.com/atom.xml" rel="self"/>
   <link href="http://www.gerlandopiro.com/"/>
-  <updated>2014-02-11T23:03:30-08:00</updated>
+  <updated>2014-02-16T10:10:56-08:00</updated>
   <id>http://www.gerlandopiro.com/</id>
   <author>
     <name><![CDATA[Gerlando Piro]]></name>
@@ -55,7 +55,7 @@
 <li><p><a href="http://bitcoinity.org/markets">Look up the current value of a Bitcoin</a>.</p></li>
 <li><p>Visit a auto-switching mining pool, my current favorite is <a href="http://www.middlecoin.com">Middlecoin</a>, and get the current BTC/Mhs/day rate.</p></li>
 <li><p>Calculate the cost to build a rig that achieves about 1 Mhs/day. A good starting point is 3 r9 270xs, 2 r9 280xs, or 2 r9 290s. A full list of cards and hash rates can be found <a href="https://litecoin.info/Mining_hardware_comparison">here</a>. Then, start pricing parts. <a href="http://www.newegg.com">NewEgg</a> is a good place to start. You&#8217;ll need a motherboard, cpu, ram, power supply, usb drive, and one or more video cards.</p></li>
-<li><p>Now simply calculate ($Bitcoin_Value<em>$Bitcoin_per_Mhs) to get your estimated daily payout and $Rig_cost/($Bitcoin_value</em>$Bitcoin_per_Mhs) to get your days till break even on your rig cost.</p></li>
+<li><p>Now simply calculate ($Bitcoin_Value x $Bitcoin_per_Mhs) to get your estimated daily payout and $Rig_cost / ($Bitcoin_value x $Bitcoin_per_Mhs) to get your days till break even on your rig cost.</p></li>
 </ol>
 
 
