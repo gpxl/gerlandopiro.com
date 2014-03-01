@@ -1,0 +1,23 @@
+.entry-title a {
+  color: #5D402F;
+}
+.header a {
+  color: #666;
+  border-top: 5px solid #EF7818;
+}
+
+.navbar-default {
+  background: transparent;
+  border: 0;
+}
+.navbar-nav:first-of-type li {
+  border-top: 3px solid #5d402f;
+}
+.navbar-nav li {
+  border-top: 3px solid #d9edf7;
+  margin-right: 3px;
+}
+
+.chimp {
+  margin-top: 3em;
+}
