@@ -7,6 +7,8 @@ published: true
 external-url:
 categories: bitcoin
 ---
+__Note: This rig is for mining Bitcoin indirectly on scrypt mining pools, such as [CleverMining](https://www.clevermining.com), that auto exchange to Bitcoin.__
+
 If you are interested in building a mining rig but not sure where to start, things just got a lot easier.
 Here’s my recommended spec sheet for a rig that, based on current market conditions, provides the best possible bang for the buck.
 This build should cost about $1900, produce a hash rate of at least 2.5MH/s, and produce about $460/month.
