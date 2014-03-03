@@ -7,7 +7,7 @@ published: true
 external-url:
 categories: bitcoin
 ---
-It's been a bit over a month since I started an experiment in mining Cryptocurrencies. One of the big questions I had going into it was wether or not mining could actually be profitable. In the time that I have been mining, daily payouts have been about 0.012 BTC/Mhs/day. That works out to about $10/day. In my [previous post](/2014/01/02/a-small-mining-adventure-the-beginning) I mentioned a 1.2Mh/s rig cost $1260 to put together so, at the current average rate, my projection of a 4 month payback schedule was accurate.
+It's been a bit over a month since I started an experiment in mining Cryptocurrencies. One of the big questions I had going into it was whether or not mining could actually be profitable. In the time that I have been mining, daily payouts have been about 0.012 BTC/Mhs/day. That works out to about $10/day. In my [previous post](/2014/01/02/a-small-mining-adventure-the-beginning) I mentioned a 1.2Mh/s rig cost $1260 to put together so, at the current average rate, my projection of a 4 month payback schedule was accurate.
 
 Below is a chart of daily earnings since the beginning of the experiment.
 
