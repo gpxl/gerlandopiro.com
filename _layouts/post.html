@@ -6,7 +6,14 @@ single: true
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <article class="hentry" role="article">
+      <article class="entry" role="article">
+        {% if page.categories contains "bitcoin" %}
+        <div class="alert alert-warning">
+           <strong>Note:</strong> The content below refers to an indirect Bitcoin mining strategy that uses scrypt mining pools and exchanges to generate Bitcoin income.
+           This secondary market requires less capital and uses common computer components for mining providing a lower barrier to entry than direct Bitcoin mining.
+         </strong>
+        </div>
+        {% endif %}
         {% include article.html %}
         <hr />
         <h2><a href="/">Back to article index</a></h2>
