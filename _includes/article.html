@@ -5,7 +5,7 @@
         <a href="{{ post.external-url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
         <a href="{{ root_url }}{{ post.url }}">&#8801;</a>
       {% else %}
-        <h2 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h2>
+        <h5 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h5>
       {% endif %}
     {% else %}
       {% if page.external-url %}
@@ -24,13 +24,9 @@
     {% endif %}
   </header>
 {% endunless %}
-{% if index %}
-  <div class="entry-content">
-    <p class="lead">{{post.excerpt}}</p>
-  </div>
-{% else %}
+{% unless index %}
   <div class="entry-content">
     {{ content | markdownify }}
     {% include post/sharing.html %}
   </div>
-{% endif %}
+{% endunless %}
