@@ -55,3 +55,7 @@ h5.entry-title {
 article {
   margin-bottom: 1em;
 }
+
+.dotcom {
+  overflow: hidden;
+}
