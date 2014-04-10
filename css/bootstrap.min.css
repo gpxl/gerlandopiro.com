@@ -10,6 +10,7 @@
   font-size: 16px;
   line-height: 1.8em;
   letter-spacing: 0.02em;
+  color: #00313e;
 }
 
 h1 {
@@ -40,8 +41,13 @@ h5.entry-title {
 .navbar-nav>li>a:hover {
  padding-top: 25px;
  padding-bottom: 18px;
- color: #333;
- background: #fff;
+ color: #00313e;
+ background: #e0f8ff;
+}
+
+.navbar-nav>li>a.active {
+  background: #fff;
+  color: #00313e;
 }
 
 .panel-body img {

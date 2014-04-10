@@ -6,8 +6,8 @@
       </div>
       <div class="col-md-5">
         <ul class="nav navbar-nav">
-          <li><a href="/about">About</a></li>
-          <li><a href="/work">Work</a></li>
+          <li><a href="/about"{% if page.title == 'about'%} class="active"{% endif %}>About</a></li>
+          <li><a href="/work"{% if page.title == 'work'%} class="active"{% endif %}>Work</a></li>
         </ul>
       </div>
     </div>
