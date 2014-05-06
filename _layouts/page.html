@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -33,15 +32,6 @@ layout: default
         </section>
       {% endif %}
       </div>
-      {% unless page.sidebar == false %}
-      <aside class="sidebar">
-        {% if site.page_asides.size %}
-          {% include_array page_asides %}
-        {% else %}
-          {% include_array default_asides %}
-        {% endif %}
-      </aside>
-      {% endunless %}
     </div>
   </div>
 </div>

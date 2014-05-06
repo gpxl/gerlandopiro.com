@@ -13,6 +13,10 @@
   color: #00313e;
 }
 
+h1, h2 ,h3, h4 {
+  font-family: serif;
+}
+
 h1 {
   font-size: 30px;
   margin-bottom: 0.8em;
@@ -26,10 +30,45 @@ h5.entry-title {
   text-decoration: none;
 }
 
-.header {
-  background: #0090D4;
+.circle, .circle-sm, .circle-lg {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  border-radius: 100px;
+  box-shadow: 1px 5px 10px rgba(0,0,0,0.4);
+  border: 2px solid #fff;
+  margin: 15px 0 0 0;
+  z-index: 1;
+}
+
+.circle-sm {
+  width: 75px;
+  border-radius: 75px;
+  z-index: 2;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 28px;
+  background: #F15A29;
+  color: #fff;
+  padding: 20px 15px;
+  margin-right: -20px;
+}
+
+.bridge, .bridge-sm {
+  background: url('/images/steelbridge.jpg') no-repeat  #F15A29;
+  background-size: cover;
+  height: 300px;
+  background-position: 0 -300px;
+  border-bottom: 1px solid #000;
   color: #fff;
   margin-bottom: 20px;
+}
+
+.bridge-sm {
+  height: 100px;
+  background-position: 0 -140px;
 }
 
 .header a { color: #fff; }
