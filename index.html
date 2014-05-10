@@ -2,18 +2,17 @@
 layout: default
 ---
 <div class="container">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
-      <div class="blog-index">
-        <hr>
-        {% assign index = true %}
-        {% for post in site.posts %}
-        {% assign content = post.content %}
-        <article>
-          {% include article.html %}
-        </article>
-        {% endfor %}
-      </div>
+  <div class="row intro">
+    <div class="col-sm-9">
+        <ul>
+          <li>Web Developer</li>
+          <li>Portland Evangelist</li>
+          <li>Music Enthusiast</li>
+          <li>Wannabe Writer</li>
+        </ul>
+    </div>
+    <div class="col-sm-3">
+      <div class="well text-center"><img src="/images/me.jpg" alt="me" class="img-responsive"></div>
     </div>
   </div>
 </div>
