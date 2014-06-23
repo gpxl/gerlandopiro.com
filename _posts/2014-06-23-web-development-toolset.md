@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My daily web development toolset"
+title: "My Daily Web Development Toolset"
 date: 2014-06-23 21:30
 published: true
 external-url:
