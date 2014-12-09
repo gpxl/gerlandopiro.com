@@ -1,4 +1,11 @@
-name: Gerlando Piro
-markdown: redcarpet
-pygments: false
-paginate: 10
+# Site settings
+title: 'Gerlando Piro'
+email: 'gerlando@gmail.com'
+description: "Web Developer from Portland, Oregon trying to make things that people enjoy."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://gerlandopiro.com" # the base hostname & protocol for your site
+twitter_username: gpxl
+github_username:  gpxl
+
+# Build settings
+markdown: kramdown

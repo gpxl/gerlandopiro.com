@@ -1,24 +1,25 @@
 ---
 layout: default
 ---
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@gpxl">
-<meta name="twitter:title" content="My contact info">
-<meta name="twitter:description" content="https://www.facebook.com/gerlando.piro https://www.linkedin.com/in/gerlandopiro https://www.github.com/gpxl http://instagram.com/gerlandop http://www.gerlandopiro.com">
-<meta name="twitter:creator" content="@gpxl">
-<meta name="twitter:image:src" content="http://gerlandopiro.com/images/me.jpg">
-<meta name="twitter:domain" content="GerlandoPiro.com">
-<div class="container">
-  <div class="row intro">
-    <div class="col-sm-9">
-        <ul>
-          <li>Web Developer</li>
-          <li>Portland Evangelist</li>
-          <li>Music Enthusiast</li>
-        </ul>
+<div class="home">
+  <div class="row">
+    <div class="col-xs-12 me">
+      <img src="/images/me.jpg">
+      <h1>Web Developer/Portland Evangelist<br>
+      <small><a href="https://www.twitter.com/gpxl">@gpxl</a> | <a href="mailto:gerlando@gmail.com">gerlando@gmail.com</a></small>
+      </h1>
     </div>
-    <div class="col-sm-3">
-      <div class="well text-center"><img src="/images/me.jpg" alt="me" class="img-responsive"></div>
+  </div>
+  <div class="row">
+    {% for post in site.posts %}
+    <div class="col-xs-10">
+      <p>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </p>
     </div>
+    <div class="col-xs-2 text-right">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </div>
+    {% endfor %}
   </div>
 </div>
