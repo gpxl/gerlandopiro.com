@@ -89,7 +89,7 @@ li {
  * Links
  */
  a {
-  color: $brand-color;
+  color: darken($brand-color, 5%);
   text-decoration: none;
 
   &:visited {
@@ -97,7 +97,7 @@ li {
   }
 
   &:hover {
-    color: darken($brand-color, 5%);
+    color: darken($brand-color, 10%);
     text-decoration: underline;
   }
 }
