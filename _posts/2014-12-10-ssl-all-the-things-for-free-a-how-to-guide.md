@@ -35,7 +35,7 @@ CloudFlare will scan your domains current DNS settings making this step a simple
   <img src="/images/ssl-add-website.png" class="img-thumbnail">
 </p>
 
-### Confirm your DNS records
+### Configure your DNS records
 
 The important ones to note are the "A" and "CNAME" records, these should be showing the "On CloudFlare". Most likely you just need to click the button to continue setup.
 
@@ -71,10 +71,4 @@ Once your DNS records have been updated, you're done! Your new settings will tak
 
 ##Pat yourself on the back!
 
-SSL is one of those unsexy yet crucial aspects of website development. Cloudflare has made it a lot easier and a lot less expensive to provide the security your customers deserve. If this still seems like more effort than you want to put in, take a look at [Taskitt](https://www.taskitt.com), web development as a service.
-
-
-
-
-
-
+SSL is one of those unsexy yet crucial aspects of website development. Cloudflare has made it a lot easier and a lot less expensive to provide the security your customers deserve. If this still more effort than you want to put in (and who could blame you?), take a look at [Taskitt](https://www.taskitt.com), web development as a service.
