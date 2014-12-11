@@ -53,12 +53,16 @@ The Free plan will suffice! Go with the default settings here, you can always re
 
 ### Update your DNS
 
-CloudFlare will now show you which domain name servers to use. Jump over to your domain registrar to update your DNS host records.
+CloudFlare will now show you which domain name servers to use. Jump over to your domain registrar to update your DNS host records. _duke.ns.cloudflare.com_ and _pola.ns.cloudflare.com_ in the screenshot below. 
+
+<p class="text-center">
+  <img src="/images/ssl-name-servers.png" class="img-thumbnail">
+</p>
 
 Sometimes finding the right screen on your domain registrars website is half the battle! My registrar, Namecheap, hides it under "Transfer DNS to Webhost".
 
 <p class="text-center">
-  <img src="/images/ssl-name-servers.png" class="img-thumbnail">
+  <img src="/images/ssl-update-dns.png" class="img-thumbnail">
 </p>
 
 ### The waiting is the hardest part
