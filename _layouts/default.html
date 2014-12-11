@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+{% include head.html %}
+<meta property="og:url" content="https://gerlandopiro.com" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:description" content="{{ site.description }}" />
+<meta property="og:image" content="https://gerlandopiro.com/images/{{ page.image }}" />
+<body>
+  {% include header.html %}
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
     </div>
-
-    {% include footer.html %}
-
-  </body>
-
+  </div>
+  {% include footer.html %}
+</body>
 </html>

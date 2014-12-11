@@ -5,6 +5,7 @@ date: 2014-12-10 21:30
 published: true
 external-url:
 categories: "development"
+image: 'ssl-all-the-things.jpg'
 ---
 <p class="text-center">
   <img src="/images/ssl-all-the-things.jpg">
