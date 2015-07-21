@@ -5,13 +5,10 @@
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:description" content="{{ site.description }}" />
 <meta property="og:image" content="https://gerlandopiro.com/images/{{ page.image }}" />
+<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <body>
   {% include header.html %}
-  <div class="page-content">
-    <div class="wrapper">
-      {{ content }}
-    </div>
-  </div>
+  {{ content }}
   {% include footer.html %}
 </body>
 </html>

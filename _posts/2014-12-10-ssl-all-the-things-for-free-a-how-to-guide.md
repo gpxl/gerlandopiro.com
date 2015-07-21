@@ -7,10 +7,6 @@ external-url:
 categories: "development"
 image: 'ssl-all-the-things.jpg'
 ---
-<p class="text-center">
-  <img src="/images/ssl-all-the-things.jpg">
-</p>
-
 If you're running any kind of business online, you're going to want an SSL (https) enabled domain. Not only will this provide your users with a secure connection between themselves and your servers (to protect their sensitive data), but [Google has announced SSL support as one of their ranking metrics](https://googlewebmastercentral.blogspot.com/2014/08/https-as-ranking-signal.html) that will grow in strength over time. Gumroad also notes that [SSL leads to higher conversion rates](https://help.gumroad.com/customer/portal/articles/1622004-how-do-i-set-up-the-gumroad-overlay-)
 
 ###So why doesn't everyone have SSL on their site?
