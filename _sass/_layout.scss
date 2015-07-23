@@ -1,3 +1,5 @@
+$grey: #666666;
+
 body {
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -11,11 +13,11 @@ small {
 }
 header.nav {
   border-top: 4px solid orange;
-  border-bottom: 1px solid #666666;
-  color: #666666;
+  border-bottom: 1px solid $grey;
+  color: $grey;
   padding: 1em 0;
   a {
-    color: #666666;
+    color: $grey;
   }
   .title {
     font-size: 2em;
@@ -66,6 +68,13 @@ header.post-header {
     }
   }
 
+}
+
+footer {
+  text-align: center;
+  border-top: 4px solid orange;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
 }
 
 #abstract {
