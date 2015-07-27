@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Untitled
-excerpt: Thinking big while starting small.
-date: "2013-01-27 13:26"
-published: true
+title: "Small Product Lab : Day 1"
+excerpt: ""
+date: 2015-07-28T00:00:00.000Z
+published: false
 comments: false
-external-url: null
+external-url: ""
 ---
