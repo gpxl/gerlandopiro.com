@@ -11,4 +11,6 @@ I took a small step today. A few days ago I signed up for [Gumroad&#39;s Small P
 
 Thankfully, the response from the community was overwhelmingly positive. A few people mentioned they would have liked to make a physical product but didn&#39;t think they could make it happen in the short, 10 day, timeframe. What a revelation! I had been struggling with the thought that a physical product wasn&rsquo;t interesting or cool enough or not businessy enough. Now I feel a little better about the path I&rsquo;m taking, a little bit more confident in what I&rsquo;m doing, and a huge relief that I wasn&rsquo;t burned at the stake for my idea (irrational thought I know, but self-doubt is funny that way).
 
+Another HUGE unexpected benefit was that one of the comments to my announcement sparked an idea that could make my project 100% better! I&#39;ll talk more about that one when it&#39;s more fully baked ;-)
+
 So a few takeaways from the day 1. Gumroad has a good thing going with the [Small Product Lab](https://gumroad.com/smallproductlab), it&rsquo;s a well crafted piece of content marketing and community building. Second, it&rsquo;s better to put your ideas out into the world rather than hold them inside and let self doubt destroy them. I&#39;m glad I took a small step today.
