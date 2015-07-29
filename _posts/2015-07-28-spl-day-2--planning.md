@@ -18,4 +18,5 @@ I also got my printer set up for printing films. Films are used in conjunction w
 
 Things were going so smooth! The only thing left on today&#39;s todo list was to get my screens coated with emulsion so I could finally burn some artwork onto them tomorrow. With only a couple of hours left in the day, my son Donovon and I got our screens lined up, opened a new box of emulsion, read the instructions, and were immediately deflated. I mentioned planning wasn&#39;t my strong point right? Well the emulsion needed to be activated with another ingredient, then stored for 2 hours before being used. So here I am writing this post, waiting until midnight for the emulsion to be activated. I suppose I&#39;ll try to plan the days going forward a bit better than I did today.
 
-<img src="/uploads/versions/emulsion-mixing---&#40;----1300-863&#41;---.jpg" class="img-responsive">
+![](/uploads/versions/emulsion-mixing---&#40;----1300-863&#41;---.jpg)
+> Post midnight update: The screens have been coated with emulsion!
