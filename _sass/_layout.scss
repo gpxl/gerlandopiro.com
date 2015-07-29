@@ -46,6 +46,11 @@ header.nav {
   color: #4d4d4d;
   margin-bottom: 2em;
 }
+.post img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 header.post-header {
   background: #736357;
   color: #fff;
