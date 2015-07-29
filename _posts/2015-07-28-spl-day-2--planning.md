@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Planning is not my strong point.
-date: ""
+date: 2015-07-28T00:00:00.000Z
 published: true
 comments: false
 external-url: ""
