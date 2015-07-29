@@ -72,6 +72,10 @@ header.post-header {
     @media (max-width:620px) {
       font-size: 2em;
     }
+    a, a:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
   }
 
 }
