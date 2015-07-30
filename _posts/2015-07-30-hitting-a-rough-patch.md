@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "I knew I'd hit a rough spot eventually"
+title: Hitting a rough patch and riding through it
 excerpt: ""
 date: 2015-07-30T00:00:00.000Z
 published: true
 comments: false
 external-url: ""
-image: "screen-rack.jpg"
+image: screen-rack.jpg
 ---
 > A quick recap&hellip; I&#39;m participating in Gumroad&#39;s Small Product Lab, a challenge to develop and launch a product in 10 days. I&#39;m going to be launching a t-shirt brand! This post is part 3. You can catch up by reading [part 1](/2015/07/28/one-small-step.html) and [part 2](/2015/07/29/spl-day-2--planning.html).
 
@@ -16,5 +16,3 @@ My plan for the remainder of the day was to fix up my artwork in preparation for
 
 To make matters worse I was also unable to print the step wedge test as well. Donovon and I burned a test screen according to directions, but when we went to wash out the screen nothing came out! My initial thought was that the lights we were using were not completely UV free and that all of our emulsion was ruined. Not a good thing! I immediately grabbed another screen to burn another test and found the emulsion was still wet. In fact, all of my reminaing screens were wet. Now I think we had two problems compounding each other. There was light creeping into our dark area AND our screens weren&#39;t getting enough airflow. This is a big set back as we need to wait another day for the screens to dry to attempt the step wedge test again. I have all my fingers crossed that things go well. Even if tomorrow goes sideways, there&#39;s no path but the way forward.
 > Resolution! After racking my brain for what went wrong, I figured out the real issue. When burning the screen I put the film between the screen and the exposure unit lid and not between the lights and the screen. You&#39;d be hard pressed to think of a more newbie level mistake than that. The good news is, the problem is solved and I can move forward with confidence again!
-
- 
