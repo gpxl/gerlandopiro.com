@@ -4,7 +4,7 @@ title: Unexpected Perspective
 date: 2015-07-31T00:00:00.000Z
 published: true
 comments: false
-image: /images/st-johns-2.jpg
+image: st-johns-2.jpg
 ---
 > A quick recap&hellip; I&#39;m participating in Gumroad&#39;s Small Product Lab, a challenge to develop and launch a product in 10 days. I&#39;m going to be launching a t-shirt brand! This post is part 4. You can catch up by reading earlier entries [here](/2015/07/28/one-small-step.html), [here](/2015/07/29/spl-day-2--planning.html), and [here](http://gerlandopiro.com/2015/07/30/hitting-a-rough-patch.html).
 
