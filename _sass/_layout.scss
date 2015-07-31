@@ -52,18 +52,21 @@ header.nav {
     height: auto;
 }
 header.post-header {
-  background: #736357;
+  position: relative;
   color: #fff;
   margin: 1em 0 2em 0;
   .post-image {
     overflow: hidden;
-    height: 160px;
+    height: 260px;
     text-align: center;
     img {
       width: 100%;
     }
   }
   h1.post-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     font-size: 3em;
     line-height: 1.1em;
     font-weight: 600;
