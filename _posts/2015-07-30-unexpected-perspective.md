@@ -10,7 +10,7 @@ image: /images/st-johns-2.jpg
 
 Day 4 of the [Small Product Lab](https://gumroad.com/smallproductlab) was relatively mellow. The goal was to start marketing efforts by sharing something. Since I&#39;ve already been sharing on this site as well as [Twitter](https://www.twitter.com/gpxl), [Facebook](https://www.facebook.com/gerlando.piro), and [Instagram](https://instagram.com/gerlandop), I felt like I had the goal accomplished be default.
 
-The biggest event of the day had nothing to do with the SPL at all. Greenpeace was in Portland blocking a Shell Oil Icebreaker from heading up to Alaska to support drilling in the Arctic. They did this by hanging off the St. John&#39;s Bridge, located right next to Cathedral Park. What a great excuse to take the family for a picnic lunch!
+The biggest event of the day had nothing to do with the SPL at all. Greenpeace was in Portland blocking a Shell Oil Icebreaker from heading up to Alaska to support drilling in the Arctic. They did this by hanging off the St. John&#39;s Bridge, located right next to Cathedral Park. What a great excuse to take the family for a picnic lunch! 
 
 ![](/uploads/versions/st-johns---&#40;----1300-863&#41;---.jpg)
 
