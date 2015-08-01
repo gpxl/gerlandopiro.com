@@ -13,6 +13,4 @@ It now day 6 of the SPL and the goal for today is to take a break and assess whe
 
 While I didn&#39;t accomplish yesterday&#39;s goal, I was able to continue making progress with screenprinting. Although I&#39;m still making newbie errors, I finally got a screen burned and ready to print. I had to burn two screens as the first one was done with the image reversed, but the final screen looks pretty decent. Later today, if this headache goes away, the plan is to run a couple of test prints.
 
- 
-
- 
+![](/uploads/versions/screen_burn---&#40;----2448-3264&#41;---.jpg)
