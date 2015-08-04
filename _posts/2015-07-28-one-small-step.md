@@ -8,7 +8,7 @@ comments: false
 external-url: ""
 image: 'command-print.jpg'
 ---
-> I&#39;m participating in Gumroad&#39;s Small Product Lab, a challenge to develop and launch a product in 10 days. I&#39;m going to be launching a t-shirt brand! [You can see the launch shirt here!](https://gumroad.com/l/cmdlaunch)
+> I&#39;m participating in Gumroad&#39;s Small Product Lab, a challenge to develop and launch a product in 10 days. I&#39;m going to be launching a t-shirt brand! [You can purchase the launch shirt here!](https://gumroad.com/l/cmdlaunch)
 
 I took a small step today. A few days ago I signed up for [Gumroad&#39;s Small Product Lab](https://gumroad.com/smallproductlab), a challenge in which participants launch a product in the span of 10 days. Today was the first day of the challenge and the goal was to figure out &quot;What&#39;s your product?&quot; and to announce it to the Product Lab&rsquo;s community. This was easy for me in one sense in that I already knew what I wanted to do (screenprint shirts). It was also extremely difficult in that most of the community seemed to be focused on digital info-products and ebooks tailored to helping other people reach their goals, while my product is physical as well as being my first creative endeavor in over 15 years.
 
@@ -18,4 +18,4 @@ Another HUGE unexpected benefit was that one of the responses to my announcement
 
 So a few takeaways from the day 1. Gumroad has a good thing going with the [Small Product Lab](https://gumroad.com/smallproductlab), it&rsquo;s a well crafted piece of content marketing and community building. Second, it&rsquo;s better to put your ideas out into the world rather than hold them inside and let self doubt destroy them. I&#39;m glad I took a small step today.
 
-> Thanks for taking the time to read this! You can continue reading the story [here](/2015/07/28/one-small-step.html), or checkout the finished product [here](https://gumroad.com/l/cmdlaunch) 
+> Thanks for taking the time to read this! You can continue reading the story [here](/2015/07/28/one-small-step.html), or [checkout the finished product](https://gumroad.com/l/cmdlaunch) 
