@@ -6,7 +6,7 @@ date: 2015-07-28T00:00:00.000Z
 published: true
 comments: false
 external-url: ""
-image: 
+image: 'command-print.jpg'
 ---
 > I&#39;m participating in Gumroad&#39;s Small Product Lab, a challenge to develop and launch a product in 10 days. I&#39;m going to be launching a t-shirt brand! [You can see the launch shirt here!](https://gumroad.com/l/cmdlaunch)
 
