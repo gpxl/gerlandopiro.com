@@ -8,7 +8,7 @@ comments: false
 external-url: ""
 image: launch-plan.jpg
 ---
-> A quick recap&hellip; I&#39;m participating in Gumroad&#39;s Small Product Lab, a challenge to develop and launch a product in 10 days. I&#39;m going to be launching [a t-shirt brand](https://gumroad.com/gpxl/follow)! This post is part 5. You can catch up by reading entries [1](/2015/07/28/one-small-step.html), [2](/2015/07/29/spl-day-2--planning.html), [3](/2015/07/30/hitting-a-rough-patch.html), [4](/2015/07/31/unexpected-perspective.html), and [5](/2015/08/01/a-bit-of-burnout.html).
+> A quick recap&hellip; I&#39;m participating in Gumroad&#39;s Small Product Lab, a challenge to develop and launch a product in 10 days. I&#39;m going to be launching [a t-shirt brand](https://gumroad.com/gpxl/follow)! This post is part 6. You can catch up by reading entries [1](/2015/07/28/one-small-step.html), [2](/2015/07/29/spl-day-2--planning.html), [3](/2015/07/30/hitting-a-rough-patch.html), [4](/2015/07/31/unexpected-perspective.html), and [5](/2015/08/01/a-bit-of-burnout.html).
 
 Sigh, As the end of the Small Product Lab draws near, I&#39;ve neglected to keep writing about what&#39;s happening behind the scenes. Here&#39;s a quick update so I can stop feeling this nagging feeling that I&#39;m dropping the ball. The past couple of day&#39;s SPL goals have been to work on pricing and launch plans. My pricing was set based on the average going rate for a printed t-shirt. It&#39;s easy enough to add promotional discounts as needed, but I didn&#39;t want to anchor low and need to adjust higher. I&#39;m going to be using high quality, super comfortable shirts and the print quality will be as high as anything available through other retail outlets, so why sell things short?
 
