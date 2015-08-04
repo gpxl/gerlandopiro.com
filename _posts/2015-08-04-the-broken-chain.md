@@ -15,3 +15,5 @@ Sigh, As the end of the Small Product Lab draws near, I've neglected to keep wri
 I had yet to set up any wholesale accounts and figured I could pick up some cheap t-shirts to run test prints on. Chalk it up to years of avoiding retail, but I had no idea even the cheapest Hanes blanks retailed for over $9 (with coupon)! I promptly hit the internet and got everything in order to get some wholesale accounts created. Now I'm just waiting for my first order to arrive. Much higher quality shirts at much lower prices. This should have been one of my first steps!
 
 My launch plan consists of outreach to the various online communities I'm a part of, as well as direct outreach to individuals. I'm curious to see what the response is. I figure what I'm doing will probably *not* resonate with a large number of folks, but I won't know unless I ask right?
+
+Oh, one more thing. I came up with a name! Going forward, ⌘ will be known as Points of Interest!
