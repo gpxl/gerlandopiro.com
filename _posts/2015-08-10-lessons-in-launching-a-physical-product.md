@@ -24,3 +24,4 @@ So lessons learned from this experience?
 *   Launch before you&#39;re ready (in reality you&#39;ll never be fully prepared)
 *   Launch small to work out the kinks
 *   Seek advice from more experienced vendors
+*   
