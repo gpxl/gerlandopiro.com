@@ -8,7 +8,7 @@ image: shipping-fun.jpg
 ---
 > We&#39;ve launched! Take a look at [our first product, The Launch Tee](http://pointsofinterest.clothing)
 
-Launching a product, even a small one, is [hard work](/2015/08/01/a-bit-of-burnout.html). But as I found out, shipping a physical product brings a whole extra world of complications in the name of fulfillment and shipping. 
+Launching a product, even a small one, is [hard work](/2015/08/01/a-bit-of-burnout.html). But as I found out, shipping a physical product brings a whole extra world of complications in the name of fulfillment and shipping. I also learned some practical lessons for launching any product.
 
 Last Friday I announced my new t-shirt line, Points of Interest, to a few online communities with no clear expectations of what response to expect. There were a few bumps in the road, like not publishing the sales page before the launch announcement, forgetting to place a size option on the sales page, and not having one of the size options on hand for launch; but overall feedback was positive and I spent the day marvelling as orders started to come in. Since I was unsure of how the launch would go, I held off on printing shirts until the first day tally was complete and proceeded to print the shirts that night. With that task complete I decided to have a celebratory beer to cap off the night. Leaving shipping details to the next day.
 
@@ -24,5 +24,3 @@ So lessons learned from this experience?
 *   Launch before you&#39;re ready (in reality you&#39;ll never be fully prepared)
 *   Launch small to work out the kinks
 *   Seek advice from more experienced vendors
-
- 
