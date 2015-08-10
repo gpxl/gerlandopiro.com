@@ -6,4 +6,7 @@ published: true
 comments: false
 image: "shipping-fun.jpg"
 ---
+> We've launched! Take a look at [our first product, The Launch Tee](http://pointsofinterest.clothing)
+
+
 
