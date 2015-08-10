@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Untitled
-excerpt: Thinking big while starting small.
+title: Lessons in Launching a Physical Product.
 date: "2013-01-27 13:26"
 published: true
 comments: false
-external-url: null
+image: "shipping-fun.jpg"
 ---
+
