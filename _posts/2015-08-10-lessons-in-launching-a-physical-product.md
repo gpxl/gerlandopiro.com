@@ -16,7 +16,7 @@ The next morning I loaded up my order list in [Gumroad](https://gumroad.com) and
 
 It wasn&#39;t until later that I came upon a couple of [extremely](http://www.fullstopinteractive.com/blog/2010/12/so-you-want-to-make-t-shirts) [helpful](http://blog.unitedpixelworkers.com/2013/02/20/so-you-want-to-make-a-whole-bunch-of-t-shirts) [posts](https://cottonbureau.com/blog/so-you-want-to-make-even-more-t-shirts) from the Cotton Bureau folks that outline the various growing pains they suffered through as well as services that helped them (and others) get through it.
 
-It&#39;s in those posts that I learned of ShipStation. A service that focuses on making fulfillment and shipping easier. I&#39;ve just signed up for ShipStation and will report back once I have some experience with it under my belt, but I&#39;m optimistic as nothing could be worse than than my current process!
+It&#39;s in those posts that I learned of [ShipStation](http://www.shipstation.com). A service that focuses on making fulfillment and shipping easier. I&#39;ve just signed up for ShipStation and will report back once I have some experience with it under my belt, but I&#39;m optimistic as nothing could be worse than than my current process!
 
 So lessons learned from this experience?
 
