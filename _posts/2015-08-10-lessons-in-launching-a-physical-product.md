@@ -23,5 +23,4 @@ So lessons learned from this experience?
 *   Your product launch is just the beginning
 *   Launch before you&#39;re ready (in reality you&#39;ll never be fully prepared)
 *   Launch small to work out the kinks
-*   Seek advice from more experienced vendors
-*   
+*   Seek advice from people with experience
