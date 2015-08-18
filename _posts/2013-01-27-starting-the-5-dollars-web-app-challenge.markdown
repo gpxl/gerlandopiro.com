@@ -1,11 +1,8 @@
 ---
 layout: post
 title: "Starting the $5 Web App Challenge"
-excerpt: "Thinking big while starting small."
 date: 2013-01-27 13:26
-published: true
 comments: false
-external-url:
 ---
 
 __That's not a typo in the title. I'm seriously challenging myself to pull in $5 in profit this year. Keep reading to hear why I consider this far from a trivial goal.__
