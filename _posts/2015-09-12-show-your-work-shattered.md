@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Show Your Work Shattered
+title: Show Your Work - Shattered T-Shirt
 date: 2015-09-12T00:00:00.000Z
 comments: false
 image: wallhooks.jpg
