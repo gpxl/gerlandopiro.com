@@ -9,7 +9,7 @@ This is the first in an effort to show the process behind my artwork. I tend to 
 
 This work was inspired by the book [Ready Player One](http://www.amazon.com/gp/product/0307887448/tag=shnomo-20). The book centers around a treasure hunt based on 80s culture and there’s a reference to an old arcade game [Battlezone](https://en.wikipedia.org/wiki/Battlezone_(1980_video_game)). The game used simple vector graphics to realize three dimensional shapes.
 
-![](/images/battlezone.png)
+![](/images/battlezone.jpg)
 
 The vector landscape of the game became the basis for the first revision, although the “mountains” look more like pyramids.
 
