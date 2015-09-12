@@ -21,6 +21,13 @@ header.nav {
   }
   .title {
     font-size: 2em;
+    a span {
+    display: inline-block;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-right: .25em;
+    }
     a:hover {
       text-decoration: none;
     }
@@ -114,3 +121,13 @@ footer {
   75%  {background-color: #000000;}
   100% {background-color: #F8ED31;}
 }
+
+.project-logo {
+  max-width: 200px;
+}
+.image-group {
+  position: relative;
+  img {
+    max-width: 300px;
+  }
+} 
