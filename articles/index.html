@@ -2,22 +2,10 @@
 layout: default
 ---
 <div class="container">
-  <header class="post-header">
-    <div class="post-image" id="abstract">
-    <img src="/images/abstract.png" class="img-responsive">
+  {% for post in site.posts %}
+    <div class="post">
+      <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
     </div>
-    <h1 class="post-title">Articles</h1>
-  </header>
-  <div class="row">
-    {% for post in site.posts %}
-    <div class="col-xs-10">
-      <p>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </p>
-    </div>
-    <div class="col-xs-2 text-right">
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </div>
-    {% endfor %}
-  </div>
+  {% endfor %}
 </div>

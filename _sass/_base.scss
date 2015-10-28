@@ -1,9 +1,11 @@
-/**
- * Reset some basic elements
- */
- body, h1, h2, h3, h4, h5, h6,
- p, blockquote, pre, hr,
- dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
-}
+$base-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 300;
+$small-font-size:  $base-font-size * 0.70;
+$base-line-height: 2.5em;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$link-color:       #e86468;
+$background-color: #fff;

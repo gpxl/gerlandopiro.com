@@ -1,0 +1,17 @@
+- name: Teachery
+  title: Online Course Builder
+  details: 'Co-founded with <a href="http://jasondoesstuff.com">Jason Zook</a>, built with Ruby on Rails &amp; Angular.js'
+  url: https://www.teachery.co
+  screenshots: [teachery3.png, teachery1.png, teachery2.png]
+
+- name: Engine Yard
+  title: Corporate Marketing Sites and Application Integration
+  details: 'Built with Jekyll and Ruby on Rails'
+  url: https://www.engineyard.com
+  screenshots: [engineyard3.png, engineyard1.png, engineyard2.png]
+
+- name: The Leap Year Project
+  title: Learning to Risk & Risking to Learn
+  details: 'Built with HTML and CSS'
+  url: http://www.leapyearproject.com
+  screenshots: [leap_year_project.png, lyp-2014.jpg]

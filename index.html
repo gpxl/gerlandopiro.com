@@ -2,40 +2,19 @@
 layout: default
 ---
 <div class="container">
-  <div class="row">
-    <div class="col-xs-10">
-      <h2>I build web applications to empower creative startups and entrepenuers.</h2>
-      <p>
-      You can reach me via <a href="https://www.twitter.com/gpxl">Twitter</a>, <a href="https://www.github.com/gpxl">Github</a>, <a href="https://instagram.com/gerlandop">Instagram</a>, <a href="https://www.linkedin.com/in/gerlandopiro">LinkedIn</a>, and <a href="mailto:gerlando@gmail.com">Email</a>.
+  {% for project in site.data.projects %}
+  <div class="project-container">
+    <div class="screenshots">
+      {% for screenshot in project.screenshots %}
+      <div><img src="/images/projects/{{ screenshot }}"></div>
+      {% endfor %}
     </div>
-    <div class="col-xs-2">
-      <h2><img src="/images/me.jpg" class="img-responsive"></h2>
-    </div>
-  </div>
-<!--  <div class="row">
-    <div class="col-xs-12">
-      <div class="text-center">
-        <h3>Current Projects</h3>
-        <div id="teachery">
-          <p><img src="/images/teachery-logo.png" alt="Teachery" class="project-logo" /></p>
-          <div class="row">
-            <div class="image-group col-sm-offset-4 col-sm-4">
-              <img src="/images/teachery-screen1.jpg" alt="Teachery Screenshot" />
-              <img src="/images/teachery-screen2.jpg" alt="How to Get Sponsorships Course" />
-              <img src="/images/teachery-screen3.jpg" alt="30 Days to Better Handlettering" />
-            </div>
-          </div>
-        </div>
-        Teachery is an online course building platform that allows experts in all fields to monetize their audience.
-      </div>
-    </div>
-  </div> -->
-  <div class="row">
-    <div class="col-xs-12">
-      {% assign page = site.posts.first%}
-      <div class="post">
-        <h4>Latest Article: <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
-      </div>
+    <div class="details">
+      <h1><a href="{{ project.url }}">{{ project.name }}</a></h1>
+      <h2>{{ project.title }}</h2>
+      <p><small>{{ project.details }}</small></p>
+      <p></p>
     </div>
   </div>
+  {% endfor %}
 </div>
