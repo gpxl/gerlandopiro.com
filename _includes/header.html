@@ -1,41 +1,12 @@
 <header>
   <h1>Gerlando Piro</h1>
-  <h2><a href="/">Building web applications</a> and <a href="/articles">thinking thoughts</a>.</h2>
-  <a href="https://www.twitter.com/gpxl">
+  <h2>Builder of web applications</a></h2>
+  {% for link in site.data.contact %}
+  <a href="{{link.url}}">
     <span class="fa-stack fa-lg">
       <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-twitter fa-inverse fa-stack-1x"></i>
+      <i class="fa {{link.icon}} fa-inverse fa-stack-1x"></i>
     </span>
   </a>
-  <a href="https://slack.gerlandopiro.com">
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-slack fa-inverse fa-stack-1x"></i>
-    </span>
-  </a>
-  <a href="https://www.github.com/gpxl">
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-github fa-inverse fa-stack-1x"></i>
-    </span>
-  </a>
-  <a href="https://www.facebook.com/gerlando.piro">
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-facebook fa-inverse fa-stack-1x"></i>
-    </span>
-  </a>
-  <a href="https://www.linkedin.com/in/gerlandopiro">
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-linkedin fa-inverse fa-stack-1x"></i>
-    </span>
-  </a>
-  <a href="mailto:gerlando@gmail.com">
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-paper-plane fa-inverse fa-stack-1x"></i>
-    </span>
-  </a>
-
+  {% endfor %}
 </header>
